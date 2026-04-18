@@ -1,0 +1,492 @@
+[
+  {
+    "date": "2024-05-07",
+    "member_name": "Eric Chua",
+    "is_present": false
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Mariam Jaafar",
+    "is_present": false
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Ng Eng Hen",
+    "is_present": false
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Josephine Teo",
+    "is_present": false
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Seah Kian Peng",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Ang Wei Neng",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Baey Yam Keng",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Chan Chun Sing",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Cheryl Chan Wei Ling",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Usha Chandradas",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Chee Hong Tat",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Edward Chia Bing Hui",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Chong Kee Hiong",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Desmond Choo",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Keith Chua",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Chua Kheng Wee Louis",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Darryl David",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Christopher de Souza",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Foo Mee Har",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Grace Fu Hai Yien",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Gan Kim Yong",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Gan Siow Huang",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Gan Thiam Poh",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Gerald Giam Yean Song",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Derrick Goh",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "He Ting Ru",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Heng Chee How",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Heng Swee Keat",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Shawn Huang Wei Zhong",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Indranee Rajah",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Janil Puthucheary",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Amy Khor Lean Suan",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Koh Poh Koon",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Kwek Hian Chuan Henry",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Desmond Lee",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Lee Hsien Loong",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Mark Lee",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Leong Mun Wai",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Liang Eng Hwa",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Lim Biow Chuan",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Jamus Jerome Lim",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Sylvia Lim",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Lim Wee Kiak",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Low Yen Ling",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Masagos Zulkifli B M M",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Mohamad Maliki Bin Osman",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Mohd Fahmi Aliman",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Muhamad Faisal Bin Abdul Manap",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Dr Muhammad Faishal Ibrahim",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Murali Pillai",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Nadia Ahmad Samdin",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Louis Ng Kok Kwang",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Ng Ling Ling",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Ong Hua Han",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Rachel Ong",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Ong Ye Kung",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Neil Parekh Nimil Rajnikant",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Joan Pereira",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Denise Phua Lay Peng",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Hazel Poa",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Poh Li San",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Pritam Singh",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Rahayu Mahzam",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Razwana Begum Abdul Rahim",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Saktiandi Supaat",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "See Jinli Jean",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "K Shanmugam",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Sharael Taha",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Sim Ann",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Sitoh Yih Pin",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Hany Soh",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Sun Xueling",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Syed Harun Alhabsyi",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Alvin Tan",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Carrie Tan",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Desmond Tan",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Tan Kiat How",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Dennis Tan Lip Fong",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Tan See Leng",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Jessica Tan Soon Neo",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Tan Wu Meng",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Patrick Tay Teck Guan",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Teo Chee Hean",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Raj Joshua Thomas",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Tin Pei Ling",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Edwin Tong Chun Fai",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Vikram Nair",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Vivian Balakrishnan",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Wan Rizal",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Don Wee",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Lawrence Wong",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Xie Yao Quan",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Alex Yam",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Yeo Wan Ling",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Yip Hon Weng",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Melvin Yong Yik Chye",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Zaqy Mohamad",
+    "is_present": true
+  },
+  {
+    "date": "2024-05-07",
+    "member_name": "Zhulkarnain Abdul Rahim",
+    "is_present": true
+  }
+]
