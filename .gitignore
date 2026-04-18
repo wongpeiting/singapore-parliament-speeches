@@ -5,6 +5,16 @@ keys
 # Scraper output
 data/
 
+# Legacy archive files from upstream pipeline
+resource-archive-html/
+resource-archive-json/
+resource-json/
+resource-budget/
+debug/
+notebooks/
+docs/
+.Rhistory
+
 # all tokens
 token/
 
