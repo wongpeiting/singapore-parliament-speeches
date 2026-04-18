@@ -1,6 +1,7 @@
 # Ignore test file
 scripts/test.py
 keys
+.DS_Store
 
 # Scraper output
 data/
