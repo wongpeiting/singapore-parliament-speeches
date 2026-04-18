@@ -1,4 +1,5 @@
 # sgparl/parse.py
+import re
 from datetime import datetime
 
 from bs4 import BeautifulSoup
@@ -37,6 +38,26 @@ def parse_sittings(metadata):
             "sittings": [metadata["sittingNO"]],
         }
     )
+
+
+def extract_adjournment_time(date, topics_list):
+    """Extract adjournment time from the Hansard speech content.
+
+    Looks for 'Adjourned accordingly at X.XX pm' in the last few topics.
+    Returns a time string like '9:07 PM' or None if not found.
+    """
+    # Search all topics from the end (adjournment text can appear in various topics)
+    for topic in reversed(topics_list):
+        content = topic.get("content") or ""
+        match = re.search(
+            r'[Aa]djourned\s+accordingly\s+at\s+(\d{1,2})[.:](\d{2})\s*(am|pm)',
+            content,
+            re.IGNORECASE,
+        )
+        if match:
+            hour, minute, ampm = match.group(1), match.group(2), match.group(3).upper()
+            return f"{hour}:{minute} {ampm}"
+    return None
 
 
 # --- Attendance ---
