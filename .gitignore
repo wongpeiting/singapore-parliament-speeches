@@ -12,8 +12,7 @@ resource-archive-json/
 resource-json/
 resource-budget/
 debug/
-# Legacy notebooks from upstream (kept locally)
-# notebooks/
+notebooks/
 docs/
 .Rhistory
 
