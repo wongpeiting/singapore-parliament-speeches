@@ -1,42 +1,57 @@
-# Structured Datasets for Singapore's Parliament Speeches
-This project aims to make parliament speeches from Singapore's Parliament Hansard structured and accessible.
+# Singapore Parliament Speech Scraper (local fork)
 
-A structured format is an enabler. There are applications in computational linguistic analysis, classification, and political science *(Dritsa et. al., 2022)*. Further empirical research on parliamentary discourse and its wider societal impact in recent times is ever more important, given the decisive role of parlimanets and their rapidly changing relations with the public and media *(Erjavec et. al., 2023)*.
+A local CLI tool for scraping Singapore Parliament Hansard speeches into CSV/JSON files.
 
-This effort addresses the lack of a centralised dataset for Singapore's parliamentary data analysis. *Rauh et. al. (2022)* observed that while more and more political text is available online in principle, bringing the various, often only rather loosely structured sources into a machine-readable format that is readily amenable to automated analysis still presents a major hurdle. Therefore, this initiative seeks to overcome that hurdle.
+This is a fork of [parleh-mate/singapore-parliament-speeches](https://github.com/parleh-mate/singapore-parliament-speeches), which built a cloud-based ETL pipeline (BigQuery, Google Drive, Cloud Functions) for structuring Hansard data. This fork strips out the cloud infrastructure and replaces it with a simple command-line scraper that saves files locally.
 
-## Disclaimer
+## What changed from upstream
 
-Please note that this is an entirely independent effort, and this initiative is by no means affiliated with the Singapore Parliament nor Singapore Government.
+- **Removed:** BigQuery, Google Drive, Telegram notifications, Docker, Cloud Functions, GitHub Actions
+- **Added:** `sgparl/` package — a lean CLI tool (`python -m sgparl`) that outputs CSV/JSON to disk
+- **Kept:** The core parsing logic (HTML speech extraction, MP name cleaning, text metrics) and `seeds/dates.csv`
 
-While best efforts are made to ensure the information is accurate, there may be inevitable parsing errors. Please use the information here with caution and check the underlying data.
+## Setup
 
-# This repository
+```bash
+pip install -r requirements.txt
+```
 
-This repository contains code for the data pipeline which performs the following:
+## Usage
 
-1. **Extract** information from the Singapore parliament's API into a JSON file.
-2. **Transform** the information, primarily by way of cleaning speech text and standardising the member's names.
-3. **Load** raw files into a database (BigQuery), which are modelled in a [dbt repository](https://github.com/jeremychia/singapore-parliament-speeches-dbt).
+```bash
+# Single sitting date
+python -m sgparl --date 2024-05-07
 
-The raw data which is generated includes the following:
+# Multiple dates
+python -m sgparl --date 2024-05-07 2024-02-05
 
-| model | description |
-|-------|-------------|
-|attendance|By member, by sitting date, whether the member attended the parliamentary sitting or not.|
-|sittings|By sitting date, the associated parliamentary sitting information (parliament number, session number, etc.)|
-|topics|Each row represents one topic which was discussed during the parliamentary sitting.|
-|speeches|Each row represents one paragraph of text, based on the hansard, during the parliamentary sitting. This text corresponds to a speech (or part of a speech) made by a Member of Parliament on a given topic.|
+# Date range (uses seeds/dates.csv to find known sitting dates)
+python -m sgparl --from 2024-01-01 --to 2024-03-31
 
-The following 
+# Output options
+python -m sgparl --date 2024-05-07 --output my-data/   # default: data/
+python -m sgparl --date 2024-05-07 --format json        # csv (default), json, or both
+```
 
-1. [Cloud Composer (Airflow)](https://console.cloud.google.com/composer/environments?authuser=9&hl=en&project=singapore-parliament-speeches) (Access required)
+## Output
 
-# How to contribute
+Four files saved to the output directory:
 
-If you are interested to contribute, please reach out to jeremyjchia@gmail.com.
+| File | Description |
+|------|-------------|
+| `sittings.csv` | Sitting metadata — parliament, session, volume, date/time |
+| `attendance.csv` | MP attendance per sitting |
+| `topics.csv` | Topics discussed, with section type |
+| `speeches.csv` | Individual speech paragraphs with speaker, text, and word/syllable/sentence counts |
 
-# References
-* *Dritsa, K., Thoma, A., Pavlopoulos, I., & Louridas, P. (2022). A Greek Parliament Proceedings Dataset for Computational Linguistics and Political Analysis. Advances in Neural Information Processing Systems, 35, 28874-28888.*
-* *Erjavec, T., Ogrodniczuk, M., Osenova, P., Ljubešić, N., Simov, K., Pančur, A., ... & Fišer, D. (2023). The ParlaMint corpora of parliamentary proceedings. Language resources and evaluation, 57(1), 415-448.*
-* *Rauh, C., & Schwalbach, J. (2020). The ParlSpeech V2 data set: Full-text corpora of 6.3 million parliamentary speeches in the key legislative chambers of nine representative democracies.*
+## Data source
+
+[Singapore Parliament Hansard](https://sprs.parl.gov.sg/search/home) — no API key required.
+
+## Credits
+
+Original project by [parleh-mate](https://github.com/parleh-mate/singapore-parliament-speeches) (Jeremy Chia). See the upstream repo for the full cloud pipeline, dbt models, and research references.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
