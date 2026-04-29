@@ -66,6 +66,7 @@ class TestParseSpeeches:
             "date", "speech_id", "topic_id", "speech_order",
             "member_name_original", "member_name", "text",
             "num_words", "num_characters", "num_sentences", "num_syllables",
+            "is_chairing",
         ]
         assert list(df.columns) == expected_cols
         assert len(df) > 0

@@ -249,11 +249,22 @@ def parse_speeches(date, topics_list):
     )
     df = pd.concat([df, wc], axis=1)
 
+    # Flag chairing speeches by Deputy Speakers / Speakers
+    # These are procedural (calling bills, maintaining order) and should not
+    # count as the MP's own parliamentary contributions.
+    df["is_chairing"] = df["member_name_original"].str.contains(
+        r"\[Deputy Speaker.*in the Chair\]|\[Speaker.*in the Chair\]|^Deputy Speaker \(",
+        case=False,
+        na=False,
+        regex=True,
+    )
+
     # Final column order
     return df[
         [
             "date", "speech_id", "topic_id", "speech_order",
             "member_name_original", "member_name", "text",
             "num_words", "num_characters", "num_sentences", "num_syllables",
+            "is_chairing",
         ]
     ]

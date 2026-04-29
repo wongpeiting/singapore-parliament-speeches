@@ -14,7 +14,7 @@ Run the scraper on a sitting date and you get four CSV files:
 
 | File | What's in it |
 |------|-------------|
-| `speeches.csv` | Every speech paragraph — who said it, party, gender, what they said, word/syllable/sentence counts |
+| `speeches.csv` | Every speech paragraph — who said it, party, gender, what they said, word/syllable/sentence counts, and whether it's a chairing speech |
 | `topics.csv` | What was discussed — oral answers (OA), bills (BI), motions (MO), etc. |
 | `attendance.csv` | Which MPs showed up and which didn't, with party and gender |
 | `sittings.csv` | Sitting metadata — parliament number, session, start/end time, duration |
@@ -22,6 +22,8 @@ Run the scraper on a sitting date and you get four CSV files:
 The scraper cleans up the raw Hansard HTML: it identifies speakers, strips procedural boilerplate, standardises MP names (so "The Minister for Health (Mr Ong Ye Kung)" becomes "Ong Ye Kung"), and merges consecutive paragraphs from the same speaker into single entries.
 
 Each speech also gets basic text metrics — word count, character count, sentence count, syllable count — which you can use for readability analysis or just to gauge how much someone said.
+
+Party and gender data comes from `seeds/member.csv`, which tracks each MP per parliament term (12th–15th, from 2011 onwards). MPs who changed roles across terms are tracked — e.g. Syed Harun Alhabsyi is recorded as NMP in the 14th Parliament and PAP in the 15th. The member data was built from Hansard attendance records.
 
 ### Example: what speeches.csv looks like
 
@@ -37,6 +39,7 @@ Each speech also gets basic text metrics — word count, character count, senten
 | `num_sentences` | 9 |
 | `party` | PAP |
 | `gender` | M |
+| `is_chairing` | False |
 
 ## Setup
 
@@ -133,10 +136,11 @@ The CSVs load straight into Excel, Google Sheets, pandas, R, or whatever you nor
 - **`--from`/`--to` date ranges rely on `seeds/dates.csv`.** Run `--update-seeds` to bring it up to date — this checks every weekday against the API, so it takes a few minutes.
 - **Speaker name cleaning is regex-based and imperfect.** The scraper handles common formats (Mr/Mrs/Dr/Prof prefixes, ministerial titles) but edge cases may produce odd results — e.g. "Mr Speaker" (a procedural role) gets cleaned to just "Speaker" rather than the actual person's name.
 - **Some speech paragraphs are silently dropped** when the HTML structure doesn't match expected patterns (e.g. paragraphs without a `<strong>` tag at the start of a topic). These are mostly procedural text, but some content may be lost.
-- **Attendance data may not match who actually spoke.** The Hansard attendance list is a snapshot from the start of the sitting. Ministers who arrive late may be marked absent even though they spoke — e.g. Tan See Leng was marked absent on 8 April 2026 but gave 14 speeches. Cross-check against `speeches.csv`.
+- **Attendance is corrected using speech data.** The Hansard attendance list is a roll call at the start of the sitting. Ministers who arrive late are marked absent even if they speak later — across the full 2012–2026 dataset, 22% of all "absent" records are contradicted by speech data (the MP gave speeches that day). The scraper now automatically overrides `is_present` to `True` for any MP who spoke on that date. This disproportionately affects ministers (57% of corrections) because they arrive from Cabinet meetings after roll call.
 - **Colons are stripped from speech text.** The upstream parsing replaces all colons with spaces, so ratios like "1:20" become "1 20" and times like "9:00" become "9 00". Be aware of this if you're searching for specific figures.
 - **"The Chairman" speeches have empty `member_name`.** During Committee of Supply debates, speeches are chaired by "The Chairman" instead of the Speaker. The name cleaner doesn't recognise this format, so those rows have blank `member_name` and no party/gender.
-- **Procedural entries are included in the data.** Rows where the Speaker calls on the next MP (e.g. "Mr Yip.", "Please proceed.") are captured as speeches. Filter out rows with 3 words or fewer, or where `member_name` is "Speaker" or "Deputy Speaker", if you only want substantive speeches.
+- **Deputy Speaker chairing speeches are flagged.** When an MP serves as Deputy Speaker and chairs proceedings, Hansard records their procedural utterances under their personal name with a `[Deputy Speaker (Mr X) in the Chair]` tag. These are now flagged with `is_chairing = True` in `speeches.csv` so they can be filtered out. Without filtering, Christopher de Souza's word count is inflated by 42K words (15%), Lim Biow Chuan's by 44K (24%), and Charles Chong's by 53K (76%). Use `speeches[speeches['is_chairing'] == False]` for analysis of MPs' own contributions.
+- **Other procedural entries are included in the data.** Rows where the Speaker calls on the next MP (e.g. "Mr Yip.", "Please proceed.") are captured as speeches. Filter out rows with 3 words or fewer, or where `member_name` is "Speaker" or "Deputy Speaker", if you only want substantive speeches.
 
 ## Credits
 

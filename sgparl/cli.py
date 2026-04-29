@@ -77,6 +77,41 @@ def _enrich_with_members(dataframes):
     return dataframes
 
 
+def _correct_attendance(dataframes):
+    """Cross-check attendance against speeches and fix false absences.
+
+    The Hansard attendance list appears to be a roll call at the start of
+    the sitting. Ministers and MPs who arrive after roll call are marked
+    absent even if they speak later. We override is_present to True for
+    any MP who gave a speech that day.
+    """
+    if "attendance" not in dataframes or "speeches" not in dataframes:
+        return dataframes
+
+    att = dataframes["attendance"]
+    speeches = dataframes["speeches"]
+
+    # Build set of (member_name, date) pairs where the MP spoke
+    spoke_pairs = set(
+        speeches[["member_name", "date"]].apply(tuple, axis=1)
+    )
+
+    # Override: if MP spoke that day, they were present
+    original_absent = (~att["is_present"]).sum()
+    att["is_present"] = att.apply(
+        lambda row: True if (row["member_name"], row["date"]) in spoke_pairs else row["is_present"],
+        axis=1,
+    )
+    corrected_absent = (~att["is_present"]).sum()
+    flipped = original_absent - corrected_absent
+
+    if flipped > 0:
+        print(f"  Attendance corrected: {flipped} absent record(s) overridden by speech data")
+
+    dataframes["attendance"] = att
+    return dataframes
+
+
 def resolve_dates(dates=None, date_from=None, date_to=None):
     """Resolve which dates to scrape.
 
@@ -270,6 +305,7 @@ def main():
     }
 
     output = _enrich_with_members(output)
+    output = _correct_attendance(output)
 
     print(f"\nSaving to {args.output}/")
     save_output(output, args.output, args.fmt)
