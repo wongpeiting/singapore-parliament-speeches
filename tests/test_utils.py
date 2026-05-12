@@ -23,6 +23,46 @@ class TestGetMpName:
     def test_no_prefix_match(self):
         assert get_mp_name("Some Random Text") == ""
 
+    def test_ministerial_title_with_name_in_parens(self):
+        assert get_mp_name("The Minister for Health (Mr Ong Ye Kung)") == "Ong Ye Kung"
+
+    def test_constituency_stripped(self):
+        assert get_mp_name("Mr Pritam Singh (Aljunied GRC)") == "Pritam Singh"
+
+    def test_two_speaker_merge(self):
+        assert get_mp_name("Mr Wee Toon Boon and Dr Toh Chin Chye") == "Wee Toon Boon"
+
+    def test_initialled_name(self):
+        assert get_mp_name("Mr D. S. Marshall (Cairnhill)") == "D. S. Marshall"
+
+    def test_bg_military_rank(self):
+        assert get_mp_name("BG Tan Chuan-Jin") == "Tan Chuan-Jin"
+
+    def test_ns_flag_stripped(self):
+        assert get_mp_name("BG [NS] Tan Chuan-Jin") == "Tan Chuan-Jin"
+
+    def test_haji_prefix(self):
+        assert get_mp_name("Haji Sha'ari Bin Tadin") == "Sha'ari Bin Tadin"
+
+    def test_haji_in_parens(self):
+        result = get_mp_name(
+            "The Parliamentary Secretary to the Minister for Culture (Haji Sha'ari Bin Tadin)"
+        )
+        assert result == "Sha'ari Bin Tadin"
+
+    def test_cdre_prefix(self):
+        assert get_mp_name("Cdre Teo Chee Hean") == "Teo Chee Hean"
+
+    def test_the_chairman_returns_empty(self):
+        assert get_mp_name("The Chairman") == ""
+
+    def test_newline_in_input(self):
+        assert get_mp_name("Mr\r\nPritam Singh") == "Pritam Singh"
+
+    def test_deputy_speaker_in_chair(self):
+        result = get_mp_name("[Deputy Speaker (Mr Christopher de Souza) in the Chair]")
+        assert "Deputy Speaker" in result
+
 
 class TestCountSyllables:
     def test_one_syllable(self):

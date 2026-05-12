@@ -4,21 +4,55 @@ import nltk
 import pandas as pd
 
 
+_nltk_ready = False
+
+
 def _ensure_nltk_data():
-    """Download punkt tokenizer if not already present."""
+    """Download punkt tokenizer if not already present (checked once per process)."""
+    global _nltk_ready
+    if _nltk_ready:
+        return
     try:
         nltk.data.find("tokenizers/punkt_tab")
     except LookupError:
         nltk.download("punkt_tab", quiet=True)
+    _nltk_ready = True
+
+
+# All recognised title/rank prefixes, shared across both regex paths.
+# Sorted longest-first so regex alternation matches greedily.
+_PREFIXES = (
+    r"Assoc\.?\s*Prof\.?"   # Academic
+    r"|Prof\.?|Dr"
+    r"|Mr|Mrs|Miss|Mdm|Ms"  # Standard
+    r"|Madam|Encik|Inche|Cik"  # Gendered (Malay)
+    r"|Haji|Hajjah"          # Islamic honorific
+    r"|BG|MG|RAdm|RADM|Cdre"  # Military/naval
+    r"|Maj|Col|LTC|CPT|SLTC|Brig"
+    r"|Tun|Dato|Tuan"        # Honorary
+    r"|Hon\.?|Er|Ir"         # Engineering / honorary
+)
 
 
 def get_mp_name(x):
     """Extract clean MP name from raw speaker string.
 
-    Ported from transform/__init__.py.
+    Handles both post-2012 format ("The Minister for Health (Mr Ong Ye Kung)")
+    and pre-2012 format ("Mr D. S. Marshall (Cairnhill)", "Mr R. Jumabhoy").
+
+    Ported from transform/__init__.py, extended for pre-2012 names.
     """
     if pd.isna(x) if not isinstance(x, str) else x == "":
         return ""
+
+    # Normalise whitespace and strip military [NS] flag
+    x = re.sub(r'[\r\n]+', ' ', x).strip()
+    x = re.sub(r'\s+', ' ', x)
+    x = re.sub(r'\s*\[NS\]\s*', ' ', x).strip()
+
+    # Speaker/Deputy Speaker in the Chair — not a named MP
+    if re.search(r"\[.*Speaker.*in the Chair\]", x, re.IGNORECASE):
+        return x.strip()
     if "SPEAKER" in x:
         temp = re.search(r"\(([^()]+)\(", x)
         if temp:
@@ -26,12 +60,37 @@ def get_mp_name(x):
             return match.strip()
         else:
             return ""
-    else:
-        match = re.search(r"(?:Mr|Mrs|Miss|Mdm|Ms|Dr|Prof)\s+([\w\s-]+)", x)
-        if match:
-            return match.group(1).strip()
-        else:
-            return ""
+
+    # Strip leading "The Minister for...(Mr Name)" — extract name from parens
+    paren_match = re.search(
+        r"\((?:" + _PREFIXES + r")\s+([^)]+)\)", x
+    )
+    if paren_match:
+        name = paren_match.group(1).strip()
+        # Remove constituency in nested parens or trailing constituency
+        name = re.sub(r"\s*\([^)]*\)\s*$", "", name)
+        return name.strip().rstrip(".")
+
+    # Direct "Mr Name" format — match name including periods (for initials)
+    # and apostrophes (for names like Ch'ng)
+    match = re.search(
+        r"(?:" + _PREFIXES + r")\s+([\w\s.'\u2019-]+)", x
+    )
+    if match:
+        name = match.group(1).strip()
+        # Remove constituency in parens at the end: "D. S. Marshall (Cairnhill)"
+        name = re.sub(r"\s*\([^)]*\)\s*$", "", name)
+        # Remove trailing punctuation
+        name = name.rstrip(".:;,")
+        # Collapse initials: "D. S. Marshall" -> "D S Marshall"
+        # (keep readable but remove trailing dots)
+        name = re.sub(r"\.\s*", ". ", name).strip().rstrip(".")
+        # Remove " and Mr ..." artifacts (two speakers merged)
+        name = re.sub(r"\s+and\s+(?:Mr|Mrs|Dr|Prof)\b.*$", "", name)
+        return name.strip()
+
+    # Fallback: no recognized prefix found
+    return ""
 
 
 def count_syllables(word):

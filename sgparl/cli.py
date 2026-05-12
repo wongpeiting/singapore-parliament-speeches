@@ -10,6 +10,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 
 from sgparl.api import fetch, check_sitting, NoSittingError
+from sgparl.enrich import resolve_role_titles
 from sgparl.parse import parse_sittings, parse_attendance, parse_topics, parse_speeches, extract_adjournment_time
 
 
@@ -305,6 +306,8 @@ def main():
     }
 
     output = _enrich_with_members(output)
+    if "speeches" in output:
+        output["speeches"] = resolve_role_titles(output["speeches"])
     output = _correct_attendance(output)
 
     print(f"\nSaving to {args.output}/")

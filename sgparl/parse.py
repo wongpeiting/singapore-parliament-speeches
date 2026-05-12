@@ -107,47 +107,41 @@ def _process_content(soup):
     """
     speakers = []
     texts = []
-    sequences = []
 
     for index, p in enumerate(soup.find_all("p")):
         try:
             if p.strong:
-                if (
-                    str(p.strong.text).strip() == ""
-                    or len(str(p.strong.text).strip()) < 3
-                ) and index > 0:
+                strong_text = str(p.strong.text).strip()
+                if (strong_text == "" or len(strong_text) < 3) and speakers:
                     speaker = speakers[-1]
                 else:
-                    speaker = str(p.strong.text).strip()
+                    speaker = strong_text
                 text = str(p.find("strong").next_sibling)
-                if p.find("span"):
-                    text = text + " " + p.find("span").get_text()
-                sequence = 1
+                spans = p.find_all("span")
+                if spans:
+                    text = text + " " + " ".join(s.get_text() for s in spans)
             else:
-                if len(speakers) > 0:
-                    speaker = speakers[-1] if index > 0 else ""
-                    sequence = sequences[-1] + 1 if index > 0 else 1
+                if speakers:
+                    speaker = speakers[-1]
                 else:
-                    if soup.find_all("p")[index - 1].strong.text.strip():
-                        speaker = soup.find_all("p")[index - 1].strong.text.strip()
-                    else:
-                        speaker = ""
-                    sequence = 1
+                    speaker = ""
                 text = str(p.text)
 
-            speakers.append(speaker)
-            texts.append(
-                text.strip()
-                .replace("\xa0", " ")
-                .replace("\t", " ")
-                .replace(":", " ")
-                .strip()
-            )
-            sequences.append(sequence)
-        except Exception as e:
-            print(f"  Warning: parse error at paragraph {index}: {e}")
+            # Strip leading colon (speaker-name separator) but preserve
+            # colons in text content (times like "1:20 pm", ratios, etc.)
+            text = (text.strip()
+                    .replace("\xa0", " ")
+                    .replace("\t", " "))
+            text = text.lstrip(":").strip()
 
-    # Combine consecutive texts by same speaker
+            speakers.append(speaker)
+            texts.append(text)
+        except AttributeError as e:
+            print(f"  Warning: parse error at paragraph {index} (no speaker tag): {e}")
+
+    # Combine consecutive texts by same speaker.
+    # Exception: oral questions start with "asked" / "to ask" — these are
+    # separate speeches even when the same MP asks multiple questions.
     revised_speakers = []
     revised_texts = []
     last_speaker = None
@@ -249,22 +243,11 @@ def parse_speeches(date, topics_list):
     )
     df = pd.concat([df, wc], axis=1)
 
-    # Flag chairing speeches by Deputy Speakers / Speakers
-    # These are procedural (calling bills, maintaining order) and should not
-    # count as the MP's own parliamentary contributions.
-    df["is_chairing"] = df["member_name_original"].str.contains(
-        r"\[Deputy Speaker.*in the Chair\]|\[Speaker.*in the Chair\]|^Deputy Speaker \(",
-        case=False,
-        na=False,
-        regex=True,
-    )
-
     # Final column order
     return df[
         [
             "date", "speech_id", "topic_id", "speech_order",
             "member_name_original", "member_name", "text",
             "num_words", "num_characters", "num_sentences", "num_syllables",
-            "is_chairing",
         ]
     ]

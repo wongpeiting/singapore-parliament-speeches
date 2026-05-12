@@ -14,16 +14,16 @@ Run the scraper on a sitting date and you get four CSV files:
 
 | File | What's in it |
 |------|-------------|
-| `speeches.csv` | Every speech paragraph — who said it, party, gender, what they said, word/syllable/sentence counts, and whether it's a chairing speech |
+| `speeches.csv` | Every speech paragraph — who said it, party, gender, what they said, word/syllable/sentence counts, chairing flag, appointment flag, noise flag |
 | `topics.csv` | What was discussed — oral answers (OA), bills (BI), motions (MO), etc. |
-| `attendance.csv` | Which MPs showed up and which didn't, with party and gender |
+| `attendance.csv` | Which MPs showed up and which didn't, with party and gender. Corrected using speech data. |
 | `sittings.csv` | Sitting metadata — parliament number, session, start/end time, duration |
 
 The scraper cleans up the raw Hansard HTML: it identifies speakers, strips procedural boilerplate, standardises MP names (so "The Minister for Health (Mr Ong Ye Kung)" becomes "Ong Ye Kung"), and merges consecutive paragraphs from the same speaker into single entries.
 
 Each speech also gets basic text metrics — word count, character count, sentence count, syllable count — which you can use for readability analysis or just to gauge how much someone said.
 
-Party and gender data comes from `seeds/member.csv`, which tracks each MP per parliament term (12th–15th, from 2011 onwards). MPs who changed roles across terms are tracked — e.g. Syed Harun Alhabsyi is recorded as NMP in the 14th Parliament and PAP in the 15th. The member data was built from Hansard attendance records.
+Party and gender data comes from `seeds/member.csv`, which tracks each MP per parliament term. Coverage is comprehensive for the 12th–15th Parliaments (2011 onwards) and selective for earlier parliaments (opposition MPs, key PAP figures, NMPs).
 
 ### Example: what speeches.csv looks like
 
@@ -40,6 +40,8 @@ Party and gender data comes from `seeds/member.csv`, which tracks each MP per pa
 | `party` | PAP |
 | `gender` | M |
 | `is_chairing` | False |
+| `is_noise` | False |
+| `is_appointment` | True |
 
 ## Setup
 
@@ -49,6 +51,8 @@ pip install -r requirements.txt
 
 ## Usage
 
+### Scraping (post-2012 sittings)
+
 ```bash
 # Single sitting date
 python -m sgparl --date 2024-05-07
@@ -56,7 +60,7 @@ python -m sgparl --date 2024-05-07
 # Multiple dates
 python -m sgparl --date 2024-05-07 2024-02-05
 
-# Date range (uses seeds/dates.csv for known sitting dates — see note below)
+# Date range (uses seeds/dates.csv for known sitting dates)
 python -m sgparl --from 2024-01-01 --to 2024-03-31
 
 # Save to a specific folder (default: data/)
@@ -72,6 +76,35 @@ python -m sgparl --update-seeds
 
 When scraping multiple dates, all results are combined into a single set of files.
 
+### Re-parsing names (no rescraping needed)
+
+After improving the name parser (`sgparl/utils.py:get_mp_name`) or the role-title resolver (`sgparl/enrich.py`), re-apply to existing data:
+
+```bash
+# Reparse the main dataset
+python -m sgparl.reparse
+
+# Reparse a specific file
+python -m sgparl.reparse data/all/speeches_post2012.csv
+
+# Reparse all speech CSVs and rebuild speeches_all.csv
+python -m sgparl.reparse --all
+```
+
+This re-runs `get_mp_name()` on every row's `member_name_original` column (which is preserved from the original scrape) and applies role-title resolution. No API calls.
+
+### Scraping pre-2012 sittings
+
+The main CLI (`python -m sgparl`) only works for post-2012 sittings. For pre-2012 data (1955-2011), use:
+
+```bash
+python -m sgparl.pre2012
+```
+
+This uses the same `getHansardReport` endpoint, but parses the `htmlFullContent` field (raw HTML of the full sitting report) instead of the structured JSON that post-2012 returns. Uses HTML comments (`<!-- MP_NAME:Name -->`) as the primary speaker source, with bold tags as fallback. Outputs to `data/all/pre2012_v2/`. Takes ~5 hours for all 1,333 dates. Checkpoints every 20 dates.
+
+**Why a separate scraper?** The Parliament API uses the same endpoint for all dates, but the response format changed in September 2012. Post-2012 returns structured JSON (`metadata`, `attendanceList`, `takesSectionVOList`). Pre-2012 returns a single `htmlFullContent` field containing the entire sitting as concatenated HTML blocks. The parsers are different because the data format is different.
+
 ### Keeping sitting dates up to date
 
 `--from`/`--to` uses `seeds/dates.csv` (a list of known sitting dates going back to 1955) to figure out which days Parliament actually sat. To bring this list up to date:
@@ -80,67 +113,133 @@ When scraping multiple dates, all results are combined into a single set of file
 python -m sgparl --update-seeds
 ```
 
-This scans every weekday from the last known date to today, checks the API, and appends any new sitting dates it finds. Takes a few minutes on the first run (it has to check hundreds of weekdays), but is fast for incremental updates.
+This scans every weekday from the last known date to today, checks the API, and appends any new sitting dates it finds.
 
-After updating, `--from`/`--to` will work for recent dates too.
+## Architecture
 
-## Test run: 8 April 2026 sitting (15th Parliament)
+### Two-track scraper
+
+Both tracks call the same API endpoint (`getHansardReport/?sittingDate=`) but parse different response formats:
 
 ```
-$ python -m sgparl --date 2026-04-08
-Scraping 1 date(s): 2026-04-08
-Fetching: https://sprs.parl.gov.sg/search/getHansardReport/?sittingDate=08-04-2026
-  [2026-04-08] Parsing...
-  [2026-04-08] Done
-
-Saving to data/
-  Saved data/sittings.csv (1 rows)
-  Saved data/attendance.csv (108 rows)
-  Saved data/topics.csv (141 rows)
-  Saved data/speeches.csv (465 rows)
-Done!
+                                seeds/dates.csv
+                                (1,747 sitting dates, 1955-2026)
+                                       |
+                  +--------------------+--------------------+
+                  |                                         |
+            Post-2012 dates                          Pre-2012 dates
+            (Version 2, 414 dates)                   (Version 1, 1,333 dates)
+                  |                                         |
+        python -m sgparl                     python scrape_pre2012_v2.py
+                  |                                         |
+    getHansardReport returns:                getHansardReport returns:
+    - metadata (JSON)                        - htmlFullContent (raw HTML)
+    - attendanceList (JSON array)              Contains ALL topics as
+    - takesSectionVOList (JSON array)          concatenated <html> blocks,
+      with per-topic content HTML              plus PRESENT/ABSENT attendance
+                  |                                         |
+    sgparl/parse.py                          scrape_pre2012_v2.py
+    (structured JSON parser)                 (HTML parser)
+                  |                                         |
+    data/all/                                data/all/pre2012_v2/
+      speeches_post2012.csv                    speeches.csv
+      topics_post2012.csv                      topics.csv
+      attendance_post2012.csv                  attendance.csv
+      sittings_post2012.csv                    sittings.csv
+                  |                                         |
+                  +--------------------+--------------------+
+                                       |
+                              python reparse_names.py --all
+                              (shared post-processing)
+                                       |
+                              +--------+--------+
+                              |                 |
+                         get_mp_name()    resolve_role_titles()
+                         (sgparl/utils.py)  (sgparl/enrich.py)
+                              |                 |
+                              +--------+--------+
+                                       |
+                                speeches_all.csv  (merged, cleaned)
+                                topics_all.csv
 ```
 
-Results: 465 speeches from 74 speakers across 141 topics. 95 of 108 MPs present.
+### Post-processing pipeline
 
-Top speakers by word count:
+After scraping, both tracks go through the same cleaning:
 
-| MP | Speeches | Words |
-|----|----------|-------|
-| Alvin Tan | 13 | 6,125 |
-| Janil Puthucheary | 4 | 3,171 |
-| Yip Hon Weng | 7 | 3,142 |
-| David Hoe | 8 | 2,746 |
-| Neo Kok Beng | 7 | 2,623 |
-| Tan See Leng | 14 | 2,149 |
-| Chua Kheng Wee Louis | 6 | 2,138 |
-| Jamus Jerome Lim | 11 | 2,090 |
-| Sun Xueling | 5 | 2,042 |
-| Chee Hong Tat | 14 | 1,953 |
+```
+1. Name parsing      -> sgparl/utils.py:get_mp_name()
+                        Handles 20+ prefixes (Mr/Dr/BG/Tun/Maj/etc.)
+                        Strips titles, constituencies, initials
 
-## What you can do with this
+2. Role resolution   -> sgparl/enrich.py:resolve_role_titles()
+                        "The Prime Minister" -> Lee Kuan Yew (by date)
+                        Flags is_appointment, is_chairing, is_noise
 
-- **Track what a minister said about a topic over time** — scrape a range of sittings, filter speeches by `member_name` and keywords
-- **Compare speaking patterns** — who dominates debate? Word counts and speech counts per MP, party, or gender across a session
-- **Find all questions on a topic** — filter topics by `section_type = "OA"` (oral answers) and search titles
-- **Attendance tracking** — which MPs were absent most often across sittings
-- **Monitor a bill's progress** — filter by `section_type = "BI"` across dates to follow readings and debates
-- **Readability analysis** — syllable and sentence counts let you calculate Flesch-Kincaid scores
-- **Sitting duration** — `sittings.csv` includes start time, end time (extracted from the Hansard adjournment record), and duration in hours. Budget weeks can run 10+ hours; regular sittings are typically 6-8
+3. Multi-speaker     -> Split blocks with 2+ inline speakers
+   splitting            Stitch orphan fragments to previous speaker
 
-The CSVs load straight into Excel, Google Sheets, pandas, R, or whatever you normally use.
+4. Deduplication     -> Remove exact (date + speaker + text) duplicates
+
+5. Party enrichment  -> Match against seeds/member.csv
+                        Verified against parliament.gov.sg official list
+
+6. Section type      -> Normalise pre-2012 codes (OR->OA, WR->WA, etc.)
+   normalisation        via section_type_normalised column
+```
+                                         |
+                                python reparse_names.py
+                                (re-applies get_mp_name + resolve_role_titles)
+                                         |
+                                  speeches_all.csv
+                                  topics_all.csv
+```
+
+## Key modules
+
+| File | Purpose |
+|------|---------|
+| `sgparl/api.py` | API client — fetches Hansard reports from sprs.parl.gov.sg |
+| `sgparl/parse.py` | Parses API responses into DataFrames (sittings, attendance, topics, speeches) |
+| `sgparl/utils.py` | Name cleaning (`get_mp_name`), syllable counting, text metrics |
+| `sgparl/enrich.py` | Post-processing: resolves role titles to names by date, flags appointment-capacity speeches |
+| `sgparl/cli.py` | CLI entry point, member enrichment, attendance correction |
+| `sgparl/reparse.py` | Re-applies name parsing + enrichment to existing CSVs without rescraping |
+| `sgparl/pre2012.py` | Pre-2012 scraper using `getHansardReport/htmlFullContent` (full coverage, includes attendance) |
+| `seeds/dates.csv` | Known sitting dates (1955-2026) |
+| `seeds/member.csv` | MP party/gender lookup by parliament term |
+
+## Name parsing
+
+The `get_mp_name()` function in `sgparl/utils.py` handles:
+
+- Standard prefixes: Mr, Mrs, Ms, Mdm, Miss, Dr, Prof
+- Military/honorary: BG, RAdm, Tun, Dato, Tuan, Er, Ir
+- Gendered: Madam, Encik, Inche, Cik
+- Academic: Assoc. Prof.
+- Initialled names: "Mr D. S. Marshall (Cairnhill)" → "D. S. Marshall"
+- Ministerial titles: "The Minister for Health (Mr Ong Ye Kung)" → "Ong Ye Kung"
+- Constituency stripping: "Mr Pritam Singh (Aljunied GRC)" → "Pritam Singh"
+- Two-speaker merges: "Mr Wee Toon Boon and Dr Toh Chin Chye" → "Wee Toon Boon"
+
+Role-title resolution (`sgparl/enrich.py`) additionally maps:
+
+- "The Prime Minister" → Lee Kuan Yew / Goh Chok Tong / Lee Hsien Loong / Lawrence Wong (by date)
+- "The Chief Minister" → David Marshall / Lim Yew Hock (pre-independence, by date)
+- All ministerial/appointment speeches flagged with `is_appointment = True`
 
 ## Notes
 
 - All dates use `YYYY-MM-DD` format.
-- **`--from`/`--to` date ranges rely on `seeds/dates.csv`.** Run `--update-seeds` to bring it up to date — this checks every weekday against the API, so it takes a few minutes.
-- **Speaker name cleaning is regex-based and imperfect.** The scraper handles common formats (Mr/Mrs/Dr/Prof prefixes, ministerial titles) but edge cases may produce odd results — e.g. "Mr Speaker" (a procedural role) gets cleaned to just "Speaker" rather than the actual person's name.
-- **Some speech paragraphs are silently dropped** when the HTML structure doesn't match expected patterns (e.g. paragraphs without a `<strong>` tag at the start of a topic). These are mostly procedural text, but some content may be lost.
-- **Attendance is corrected using speech data.** The Hansard attendance list is a roll call at the start of the sitting. Ministers who arrive late are marked absent even if they speak later — across the full 2012–2026 dataset, 22% of all "absent" records are contradicted by speech data (the MP gave speeches that day). The scraper now automatically overrides `is_present` to `True` for any MP who spoke on that date. This disproportionately affects ministers (57% of corrections) because they arrive from Cabinet meetings after roll call.
-- **Colons are stripped from speech text.** The upstream parsing replaces all colons with spaces, so ratios like "1:20" become "1 20" and times like "9:00" become "9 00". Be aware of this if you're searching for specific figures.
-- **"The Chairman" speeches have empty `member_name`.** During Committee of Supply debates, speeches are chaired by "The Chairman" instead of the Speaker. The name cleaner doesn't recognise this format, so those rows have blank `member_name` and no party/gender.
-- **Deputy Speaker chairing speeches are flagged.** When an MP serves as Deputy Speaker and chairs proceedings, Hansard records their procedural utterances under their personal name with a `[Deputy Speaker (Mr X) in the Chair]` tag. These are now flagged with `is_chairing = True` in `speeches.csv` so they can be filtered out. Without filtering, Christopher de Souza's word count is inflated by 42K words (15%), Lim Biow Chuan's by 44K (24%), and Charles Chong's by 53K (76%). Use `speeches[speeches['is_chairing'] == False]` for analysis of MPs' own contributions.
-- **Other procedural entries are included in the data.** Rows where the Speaker calls on the next MP (e.g. "Mr Yip.", "Please proceed.") are captured as speeches. Filter out rows with 3 words or fewer, or where `member_name` is "Speaker" or "Deputy Speaker", if you only want substantive speeches.
+- **`--from`/`--to` date ranges rely on `seeds/dates.csv`.** Run `--update-seeds` to bring it up to date.
+- **Pre-2012 HTML uses a different format** (inline `<b>` tags rather than `<p><strong>` blocks). After multi-speaker splitting, orphan stitching, and HTML refetch recovery, only 0.03% of total words remain unrecoverable — mostly Ministry Addenda, Budget section headers, and fragments from topics where the API search limit prevented finding the original HTML.
+- **Attendance is corrected using speech data.** The Hansard attendance list is a roll call at the start of the sitting. Ministers who arrive late are marked absent even if they speak later — 22% of all "absent" records are contradicted by speech data. The scraper overrides `is_present` to `True` for any MP who spoke that day.
+- **Deputy Speaker chairing speeches are flagged.** When an MP chairs proceedings as Deputy Speaker, Hansard records their procedural utterances under their personal name with a `[Deputy Speaker (Mr X) in the Chair]` tag. These are flagged with `is_chairing = True`. Without this, Christopher de Souza's word count is inflated by 42K words (15%), Charles Chong's by 53K (76%).
+- **"The Chairman" speeches are flagged but not name-resolved.** During Committee of Supply debates, "The Chairman" is whoever is chairing — typically the Deputy Speaker or an appointed MP, NOT the Speaker of Parliament. These are flagged `is_chairing = True` and `is_appointment = True` but `member_name` is left empty because the role rotates and we lack per-sitting chair data.
+- **Colons are stripped from speech text.** The upstream parsing replaces all colons with spaces ("1:20" becomes "1 20").
+- **Anonymous interjections are flagged as noise.** "An hon. Member", "Some hon. Members" = unidentified shouts from the chamber. "ADJOURNMENT", "(Motion)", "ANNUAL BUDGET STATEMENT" = procedural markers. These are flagged with `is_noise = True`. Filter with `speeches[~speeches['is_noise']]`.
+- **Multi-speaker blocks are split and stitched.** The pre-2012 HTML parser often lumped entire debates into a single row. These are detected by finding 2+ inline speaker patterns (e.g. "Mr Foo (West Coast):") in the text, then split into individual speeches. Split speech IDs use a `-SPLIT-{N}` suffix. Orphan text fragments produced by imperfect splitting (where the regex cut at a quoted reference like "The Prime Minister said..." rather than a new speaker) are stitched back to the previous speaker — 98,311 fragments (13M words) recovered this way.
+- **Pre-2012 data is capped at 20 topics per sitting.** The Parliament API's search pagination is broken (returns the same 20 results regardless of offset). Most sittings have <20 topics; for busier days (e.g. Budget debates) coverage is partial.
 
 ## Credits
 
