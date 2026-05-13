@@ -241,6 +241,19 @@ Role-title resolution (`sgparl/enrich.py`) additionally maps:
 - **Multi-speaker blocks are split and stitched.** The pre-2012 HTML parser often lumped entire debates into a single row. These are detected by finding 2+ inline speaker patterns (e.g. "Mr Foo (West Coast):") in the text, then split into individual speeches. Split speech IDs use a `-SPLIT-{N}` suffix. Orphan text fragments produced by imperfect splitting (where the regex cut at a quoted reference like "The Prime Minister said..." rather than a new speaker) are stitched back to the previous speaker — 98,311 fragments (13M words) recovered this way.
 - **Pre-2012 data is capped at 20 topics per sitting.** The Parliament API's search pagination is broken (returns the same 20 results regardless of offset). Most sittings have <20 topics; for busier days (e.g. Budget debates) coverage is partial.
 
+## ParlDesk — Newsroom frontend
+
+This repo also includes **ParlDesk**, a newsroom intelligence terminal built on top of the scraped data. It ingests the CSVs into SQLite, runs anomaly detection, and serves a FastAPI dashboard with MP profiles, leaderboards, party breakdowns, and full-text search.
+
+See [`parldesk/README.md`](parldesk/README.md) for full details, or run:
+
+```bash
+pip install fastapi uvicorn jinja2
+python -m parldesk.ingest    # build SQLite DB (~4 min)
+uvicorn parldesk.app:app --reload
+open http://localhost:8000
+```
+
 ## Credits
 
 Built on the parsing logic from [parleh-mate/singapore-parliament-speeches](https://github.com/parleh-mate/singapore-parliament-speeches) by Jeremy Chia ([@jeremychia](https://github.com/jeremychia)), Jon Foong ([@jonfoong](https://github.com/jonfoong)), and Royce Hoe ([@roycehoe](https://github.com/roycehoe)). See the upstream repo for the full cloud pipeline, dbt models, and research references.

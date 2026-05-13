@@ -1,83 +1,432 @@
 mp_name,party,gender,parliament
+(NS,PAP,,11
+A J Braga,LF,M,0
+A Nithiah Nandan,NMP,,10
+A P Rajah,IND,M,0
+A. A. Williams,PAP,,0
+A. J. Braga,PAP,,0
+A. Nithiah Nandan,NMP,,10
+A. P. Rajah,PAP,,0
+A. R. Lazarous,PAP,,0
+A. Rahim Ishak,PAP,,1
+A. Rahim Ishak,PAP,,2
+A. Rahim Ishak,PAP,,3
+A. Rahim Ishak,PAP,,4
+A. Rahim Ishak,PAP,,5
+A. V. Winslow,PAP,,0
+Abbas Abu Amin,PAP,,5
+Abbas Abu Amin,PAP,,6
+Abbas Abu Amin,PAP,,7
+Abbas. Encik Abbas Abu Amin,PAP,,5
+Abbas. Encik Abbas Abu Amin,PAP,,6
+Abbas. Encik Abbas Abu Amin,PAP,,7
+Abdul Aziz,PAP,,3
+Abdul Aziz Karim,PAP,,2
+Abdul Aziz Karim,PAP,,3
+Abdul Hamid,UMNO,,0
+Abdul Hamid Bin Haji Jumat,PAP,,0
+Abdul Hamid Jumat,UMNO,M,0
+Abdul Hamid bin Haji Jumat,PAP,,0
 Abdul Muhaimin Abdul Malik,WP,M,15
+Abdul Nasser Bin Kamaruddin,PAP,,7
+Abdul Nasser bin Kamaruddin,PAP,,7
 Abdul Samad,NMP,M,14
+Abdullah Tarmugi,PAP,,6
+Abdullah Tarmugi,PAP,,7
+Abdullah Tarmugi,PAP,,8
+Abdullah Tarmugi,PAP,,9
+Ahmad  Bin  Ibrahim,PAP,,0
+Ahmad Bin Ibrahim,PAP,,0
+Ahmad Haleem,PAP,,4
+Ahmad Ibrahim,IND,M,0
+Ahmad Jabri,PAP,,0
+Ahmad Jabri Bin Mohamad Akib,PAP,,0
+Ahmad Jabri Bin Mohammad Akib,PAP,,0
+Ahmad Khalis Bin Abdul Ghani,PAP,,10
+Ahmad Khalis bin Abdul Ghani,PAP,,10
+Ahmad Mattar,PAP,,3
+Ahmad Mattar,PAP,,4
+Ahmad Mattar,PAP,,5
+Ahmad Mattar,PAP,,6
+Ahmad Mattar,PAP,,7
+Ahmad Mattar,PAP,,8
+Ahmad Mohd Magad,PAP,,9
+Ahmad Mohd Magad,PAP,,10
+Ahmad Mohd Magad,PAP,,11
+Ahmad bin Ibrahim,PAP,,0
+Alan Lennox-Boyd,PAP,,0
+Alex Josey - An hon. Member,PAP,,0
 Alex Yam,PAP,M,12
 Alex Yam,PAP,M,13
 Alex Yam,PAP,M,14
 Alex Yam,PAP,M,15
+Alex Yam Ziming,PAP,,12
+Alex Yam Ziming,PAP,,14
 Alex Yeo,PAP,M,15
+Alexander Chan Meng Wah,PAP,,10
+Aline K,PAP,,9
+Aline K Wong,PAP,,7
+Aline K Wong,PAP,,8
+Aline K. Wong,PAP,,6
+Aline K. Wong,PAP,,7
+Aline K. Wong,PAP,,8
+Aline K. Wong,PAP,,9
+Aline Wong,PAP,,6
+Aline Wong,PAP,,7
+Aline Wong,PAP,,8
+Aline Wong,PAP,,9
 Alvin Tan,PAP,M,14
 Alvin Tan,PAP,M,15
 Alvin Yeo,PAP,M,12
 Amrin Amin,PAP,M,13
+Amy,PAP,,11
+"Amy
+Khor Lean Suan",PAP,,12
+Amy  Khor Lean Suan,PAP,,11
+"Amy Khor
+Lean Suan",PAP,,12
+Amy Khor Lean Suan,PAP,,10
+Amy Khor Lean Suan,PAP,,11
 Amy Khor Lean Suan,PAP,F,12
 Amy Khor Lean Suan,PAP,F,13
 Amy Khor Lean Suan,PAP,F,14
+Amy Khor Lean Suan Suan,PAP,,10
+Amy Khor Lean Suan,PAP,,14
+Andrew Fong,PAP,,0
+Andy Gan Lai Chiang,PAP,,10
+Andy Gan. An hon. Member,PAP,,9
+Aneurin Bevan asks,PAP,,0
 Ang Hin Kee,PAP,M,12
 Ang Hin Kee,PAP,M,13
+Ang Kok Peng,PAP,,3
+Ang Kok Peng,PAP,,4
+Ang Kok Peng,PAP,,5
+Ang Kok Peng,PAP,,6
+Ang Kok Pong,PAP,,4
+"Ang Mong
+
+Seng",PAP,,11
+Ang Mong Seng,PAP,,9
+Ang Mong Seng,PAP,,10
+Ang Mong Seng,PAP,,11
+Ang Nam Piau,PAP,,1
+Ang Nam Piau,PAP,,2
+Ang Nam Piau,PAP,,3
+Ang Nam Piau,PAP,,4
 Ang Wei Neng,PAP,M,12
 Ang Wei Neng,PAP,M,13
 Ang Wei Neng,PAP,M,14
 Ang Wei Neng,PAP,M,15
 Anthea Ong,NMP,F,13
 Arasu Duraisamy,NMP,M,13
+Arthur Beng,PAP,,6
+Arthur Beng,PAP,,7
+Arthur Beng Kian Lam,PAP,,6
+Arthur Beng Kian Lam,PAP,,7
+Arthur Beng Kian Lam,PAP,,8
+Arthur Beng Kin Lam,PAP,,7
 Arthur Fong,PAP,M,12
+Audrey Wong Wai Yen,NMP,,11
+Augustine H H Tan,PAP,,7
+Augustine H. H. Tan,PAP,,2
+Augustine H. H. Tan,PAP,,3
+Augustine H. H. Tan,PAP,,4
+Augustine H. H. Tan,PAP,,5
+Augustine H. H. Tan,PAP,,6
+Augustine H. H. Tan,PAP,,7
+Augustine Tan,PAP,,2
+Augustine Tan,PAP,,3
+Augustine Tan,PAP,,4
+Augustine Tan,PAP,,5
+Augustine Tan,PAP,,6
+Augustine Tan,PAP,,7
 Azhar Othman,NMP,M,15
 Azmoon Ahmad,NMP,M,13
+"Baey Yam
+
+Keng",PAP,,11
 Baey Yam Keng,PAP,M,12
 Baey Yam Keng,PAP,M,13
 Baey Yam Keng,PAP,M,14
 Baey Yam Keng,PAP,M,15
+Baharaddin Bin Mohd. Ariff,PAP,,0
+Baharuddin,PAP,,0
+Baharuddin Bin Mohamed Ariff,PAP,,0
+Baharuddin Bin Mohd. Ariff,PAP,,0
+Balaji Sadasivan,PAP,,10
+Balaji Sadasivan,PAP,,11
+Bani,BS,,0
+Bani as the Member for Thomson. The Prime Minister,PAP,,0
+Bani continued,PAP,,0
+Bani is - Mr Speaker,PAP,,0
+Bani. The Prime Minister,PAP,,0
+Baptist,PAP,,3
+Baptist,PAP,,4
+Barker,PAP,,1
+Barker,PAP,,2
+Barker,PAP,,3
+Barker,PAP,,4
+Barker,PAP,,5
+Barker,PAP,,6
 Benedict Tan,NMP,M,12
+Benedict Tan,PAP,,12
+Beng  Dr Arthur Beng Kian Lam,PAP,,8
+Benjamin Henry Sheares,PAP,,2
+Benjamin Henry Sheares,PAP,,3
+Benjamin Henry Sheares,PAP,,4
+Bernard Chen,PAP,,4
+Bernard Chen,PAP,,5
+Bernard Chen,PAP,,6
+Bernard Chen,PAP,,7
+Bernard Chen,PAP,,8
+Bernard Chen,PAP,,9
+Bernard Chen Tien Lap,PAP,,4
+Bernard Rodrigues,PAP,,1
+Bourghuiba- Mr Lee Kuan Yew,PAP,,0
+Braema,PAP,,10
+Braema Mathiaparanam,NMP,,9
+Braema Mathiaparanam,NMP,,10
+Braga,PAP,,0
+Broder goes on to say,PAP,,7
+Broder says,PAP,,7
+Buang Bin Omar,PAP,,0
+Buang Bin Omar Junid,PAP,,1
+Buang Bin Omar Junid,PAP,,2
+Butterfield,PAP,,0
+Byrne,LF,,0
+Byrne resumed his seat. Column,PAP,,0
+C V Devan Nair,PAP,,6
+C. H. Butterfield,PAP,,0
+C. H. Koh,PAP,,0
+C. V. Devan Nair,PAP,,4
+C. V. Devan Nair,PAP,,5
 Cai Yinzhou,PAP,M,15
+Calvin Cheng,NMP,,11
 Carrie Tan,PAP,F,14
 Cassandra Lee,PAP,F,15
+"Cedric Foo Chee
+Keng",PAP,,12
+Cedric Foo Chee Keng,PAP,M,7
+Cedric Foo Chee Keng,PAP,M,8
+Cedric Foo Chee Keng,PAP,M,9
+Cedric Foo Chee Keng,PAP,M,10
+Cedric Foo Chee Keng,PAP,M,11
 Cedric Foo Chee Keng,PAP,M,12
 Cedric Foo Chee Keng,PAP,M,13
+Ch'ng Jit Koon,PAP,,2
+Ch'ng Jit Koon,PAP,,3
+Ch'ng Jit Koon,PAP,,4
+Ch'ng Jit Koon,PAP,,5
+Ch'ng Jit Koon,PAP,,6
+Ch'ng Jit Koon,PAP,,7
+Ch'ng Jit Koon,PAP,,8
+Chai Chong Yii,PAP,,3
+Chai Chong Yii,PAP,,4
+Chai Chong Yii,PAP,,5
+Chai Chong Yii,PAP,,6
+Cham Hui Fong,NMP,,11
+Chan,PAP,,0
+Chan,PAP,,1
+"Chan
+Chun Sing",PAP,,12
+Chan Chee Seng,PAP,,1
+Chan Chee Seng,PAP,,2
+Chan Chee Seng,PAP,,3
+Chan Chee Seng,PAP,,4
+Chan Chee Seng,PAP,,5
+Chan Chee Song,PAP,,4
+Chan Choy Siong,PAP,,1
+Chan Choy Siong,PAP,,2
 Chan Chun Sing,PAP,M,12
 Chan Chun Sing,PAP,M,13
 Chan Chun Sing,PAP,M,14
 Chan Chun Sing,PAP,M,15
+Chan Soo Sen,PAP,,9
+Chan Soo Sen,PAP,,10
+Chan Soo Sen,PAP,,11
+Chan Sun Wing,BS,,0
+Chan. Madam Chan Choy Siong,PAP,,1
+Chan. Madam Chan Choy Siong,PAP,,2
+Chandra Das,PAP,,5
+Chandra Das,PAP,,6
+Chandra Das,PAP,,7
+Chandra Das,PAP,,8
+Chandra Mohan K Nair,NMP,,9
+Chandra Mohan K Nair,NMP,,10
+Chandra Mohan K. Nair,NMP,,10
+Chandra Mohan Nair,NMP,,9
+Chandra Mohan Nair,NMP,,10
+Chandra Mohan. The Prime Minister,PAP,,6
 Charlene Chen,PAP,F,15
 Charles Chong,PAP,M,12
 Charles Chong,PAP,M,13
+Charles Chong. Noise Mr Charles Chong,PAP,,11
+Chau Sik Ting,PAP,,5
+Chay Wai Chuen,PAP,,7
+Chay Wai Chuen,PAP,,8
+Chay Wai Chuen,PAP,,9
+Chay Wai Chuen,PAP,,10
+Chee,PAP,,8
 Chee Hong Tat,PAP,M,13
 Chee Hong Tat,PAP,M,14
 Chee Hong Tat,PAP,M,15
+Chee said,PAP,,8
+Chee. I would like to ask him now,PAP,,8
 Chen Show Mao,WP,M,12
 Chen Show Mao,WP,M,13
 Cheng Hsing Yao,NMP,M,14
 Cheng Li Hui,PAP,F,13
 Cheng Li Hui,PAP,F,14
+Cheo Chai Chen,SDP,M,8
+Cheong Yuen Chee,PAP,,2
+Cheong Yuen Chee,PAP,,3
+Cheong Yuen Chee,PAP,,4
 Cheryl Chan Wei Ling,PAP,F,13
 Cheryl Chan Wei Ling,PAP,F,14
+Chew Chin Han,PAP,,1
+Chew Heng Chin,PAP,,7
+Chew Heng Ching,PAP,,6
+Chew Heng Ching,PAP,,7
+Chew Heng Ching,PAP,,8
+Chew Heng Ching,PAP,,9
+Chew Heng Ching,PAP,,10
+Chew Swee Kee,LF,M,0
+Chew's statement,PAP,,0
+Chia Shi Teck,NMP,,8
 Chia Shi-Lu,PAP,M,12
 Chia Shi-Lu,PAP,M,13
+Chia Thye Poh,BS,M,0
+Chia Thye Poh resumed his seat. The Prime Minister,PAP,,0
 Chia Yong Yong,NMP,F,12
 Chia Yong Yong,NMP,F,13
+Chiam,PAP,,10
+Chiam,PAP,,11
+"Chiam
+
+See Tong",PAP,,6
+Chiam See Chiam,PAP,,6
+Chiam See Tong,SDP,M,6
+Chiam See Tong,SDP,M,7
+Chiam See Tong,SDP,M,8
+Chiam See Tong,SPP,M,9
+Chiam See Tong,SPP,M,10
+Chiam See Tong,SPP,M,11
+Chiam See Tong rose Mr Speaker,PAP,,6
+Chiam See Tong rose Mr Speaker,PAP,,7
+Chiam See Tong rose Prof. Jayakumar,PAP,,6
+Chiam See Tong said,PAP,,6
+Chiam Seng Tong,PAP,,9
+Chiam asks,PAP,,8
+Chiam needs to answer is,PAP,,9
+Chiam raised,PAP,,10
+Chiam raised the point,PAP,,9
+Chiam to sue. One asks,PAP,,8
+Chiam's statement is,PAP,,9
+Chiam. Prof. Jayakumar,PAP,,6
+Chiam. The Prime Minister,PAP,,6
+Chiang Hai Ding,PAP,,2
+Chiang Hai Ding,PAP,,3
+Chiang Hai Ding,PAP,,4
+Chief Minister - The Chief Minister,PAP,,0
+Chief Minister. The Chief Minister,PAP,,0
+Chin Harn Tong,PAP,,3
+Chin Harn Tong,PAP,,4
+Chin Harn Tong,PAP,,5
+Chin Harn Tong,PAP,,6
+Chin Harn Tong,PAP,,7
+Chin Harn Tong,PAP,,8
+Chin Tet Yuing,PAP,,9
+Chin Tet Yung,PAP,,9
+Chin Tet Yung,PAP,,10
+Chio Cheng Thun,PAP,,0
+Chng Hee Kok,PAP,,6
+Chng Hee Kok,PAP,,7
+Chng Hee Kok,PAP,,8
+Chng Hee Kok,PAP,,9
+Chng has still not spoken,PAP,,6
 Chong Kee Hiong,PAP,M,13
 Chong Kee Hiong,PAP,M,14
+Chong Weng Chiew,PAP,,10
 Choo Pei Ling,PAP,F,15
+Choo Wee Khiang,PAP,,7
+Choo Wee Khiang,PAP,,8
+Choo Wee Khiang,PAP,,9
+Choo Wee Khiang Mr Choo Wee Khiang,PAP,,8
+Choo Wee Khiang in Mandarin,PAP,,8
+Chor Yeok Eng,PAP,,1
+Chor Yeok Eng,PAP,,2
+Chor Yeok Eng,PAP,,3
+Chor Yeok Eng,PAP,,4
+Chor Yeok Eng,PAP,,5
+Chow Chiok Hock,PAP,,1
 Christopher de Souza,PAP,M,12
 Christopher de Souza,PAP,M,13
 Christopher de Souza,PAP,M,14
 Christopher de Souza,PAP,M,15
 Chua Kheng Wee Louis,WP,M,14
 Chua Kheng Wee Louis,WP,M,15
+Chua Sian Chin,PAP,,2
+Chua Sian Chin,PAP,,3
+Chua Sian Chin,PAP,,4
+Chua Sian Chin,PAP,,5
+Chua Sian Chin,PAP,,6
+Chua really is this,PAP,,8
+Chuang Shaw Peng,NMP,,9
+Claire Chiang See Ngoh,PAP,,9
+Conceicao,PAP,,2
+Conceicao,PAP,,3
+Conceicao,PAP,,4
+Cynthia Phua,PAP,,10
+Cynthia Phua,PAP,,11
+Cynthia Phua. Mdm Cynthia Phua,PAP,,10
+Cynthia Phua. Mdm Cynthia Phua,PAP,,11
+Cyrille Tan,PAP,,9
+D. S. Marshall,LF,,0
+Daim,PAP,,9
 Daniel Goh Pei Siong,WP,M,13
 Darryl David,PAP,M,13
 Darryl David,PAP,M,14
 Darryl David,PAP,M,15
+David,PAP,,0
+David  Marshall,PAP,,0
 David Hoe,PAP,M,15
+David Lim,PAP,,9
+David Lim,PAP,,10
+David Marshall,LF,M,0
+David Marshall in which they said,PAP,,0
 David Neo,PAP,M,15
 David Ong,PAP,M,12
+David Ong Kim Huat,PAP,,12
+David T E Lim,PAP,,9
+David T E Lim,PAP,,10
+David T. E. Lim,PAP,,9
+David T. E. Lim,PAP,,10
+David T.E. Lim,PAP,,9
+Davies,PAP,,0
+Davinder Singh,PAP,,7
+Davinder Singh,PAP,,8
+Davinder Singh,PAP,,9
+Davinder Singh,PAP,,10
+Denise Phua Lay,PAP,,12
 Denise Phua Lay Peng,PAP,F,12
 Denise Phua Lay Peng,PAP,F,13
 Denise Phua Lay Peng,PAP,F,14
 Denise Phua Lay Peng,PAP,F,15
+Denise Phua Lay Peng,PAP,,12
 Dennis Tan Lip Fong,WP,M,13
 Dennis Tan Lip Fong,WP,M,14
 Dennis Tan Lip Fong,WP,M,15
+Deputy,PAP,,12
+Deputy  Speaker,PAP,,0
+Deputy Chairman,PAP,,14
+Deputy Speaker - Mr Deputy Speaker,PAP,,0
+Deputy Speaker in the Chair,PAP,,10
+Deputy Speaker in the Chair,PAP,,11
+Deputy Speaker in the Chair,PAP,,14
+Deputy Speaker. An hon. Member,PAP,,5
+Deputy Speaker. Prof. Jayakumar,PAP,,6
+Deputy Speaker in the Chair,PAP,,11
+Deputy Speaker,PAP,,12
 Derrick Goh,PAP,M,14
 Desmond Choo,PAP,M,13
 Desmond Choo,PAP,M,14
@@ -88,64 +437,256 @@ Desmond Lee,PAP,M,14
 Desmond Lee,PAP,M,15
 Desmond Tan,PAP,M,14
 Desmond Tan,PAP,M,15
+Devan Nair,PAP,M,7
+Devan Nair,PAP,M,8
+Devan Nair,PAP,M,9
+Devan Nair,PAP,M,10
+Devan Nair,PAP,M,11
+Devan Nair a medal. An hon. Member,PAP,,0
+Dhanabalan,PAP,,4
+Dhanabalan,PAP,,5
+Dhanabalan,PAP,,6
+Dhanabalan,PAP,,7
+Dhanabalan,PAP,,8
+Diana Pang,PAP,,15
 Diana Pang Li Yen,PAP,F,15
 Dinesh Vasu Dash,PAP,M,15
+Dixie Tan,PAP,,6
+Dixie Tan,PAP,,7
 Don Wee,PAP,M,14
+Doraisingham said,PAP,,0
 Douglas Foo,NMP,M,13
+Dr Lee Bee Wah,PAP,,12
+Dr Lee Bee Wah,PAP,,13
+"Dr Muhammad
+Faishal Ibrahim",PAP,,12
 Dr Muhammad Faishal Ibrahim,PAP,M,12
 Dr Muhammad Faishal Ibrahim,PAP,M,13
 Dr Muhammad Faishal Ibrahim,PAP,M,14
 Dr Muhammad Faishal Ibrahim,PAP,M,15
+Dr Yaacob,PAP,,11
+Dr Yaacob  Ibrahim,PAP,,11
 Dr Yaacob Ibrahim,PAP,M,12
 Dr Yaacob Ibrahim,PAP,M,13
+E W Barker,PAP,M,1
+E W Barker,PAP,M,2
+E W Barker,PAP,M,3
+E W Barker,PAP,M,4
+E W Barker,PAP,M,5
+E W Barker,PAP,M,6
+E W Barker,PAP,M,7
+E W Barker,PAP,M,8
+E W Barker,PAP,M,9
+E W Barker,PAP,M,10
+E W Barker,PAP,M,11
+E. B. David,PAP,,0
+E. J. Davies,PAP,,0
+E. J. H. Corner is the first authority,PAP,,0
+E. P. Shanks,PAP,,0
+E. W. Banker,PAP,,4
+E. W. Barker,PAP,,1
+E. W. Barker,PAP,,2
+E. W. Barker,PAP,,3
+E. W. Barker,PAP,,4
+E. W. Barker,PAP,,5
+E. W. Barker,PAP,,6
+E.W. Barker,PAP,,4
+E.W. Barker,PAP,,5
+E.W. Barker,PAP,,6
+Edward Chia,PAP,,14
+Edward Chia,PAP,,15
 Edward Chia Bing Hui,PAP,M,14
 Edward Chia Bing Hui,PAP,M,15
+Edwin Khew Teck Fook,PAP,,11
+Edwin Tong,PAP,,13
+Edwin Tong,PAP,,14
 Edwin Tong Chun Fai,PAP,M,12
 Edwin Tong Chun Fai,PAP,M,13
 Edwin Tong Chun Fai,PAP,M,14
 Edwin Tong Chun Fai,PAP,M,15
+Edwin Tong’s numbers. Page,PAP,,12
 Eileen Chong Pei Shan,WP,F,15
+Elias,PAP,,6
 Ellen Lee,PAP,F,12
+Ellen Lee Geck Hoon,PAP,,11
 Elysa Chen,PAP,F,15
+Eric Cheong Yuen Chee,PAP,,2
+Eric Cheong Yuen Chee,PAP,,4
+Eric Cheong Yuen Chee,PAP,,5
+Eric Cheong Yuen Chee,PAP,,6
 Eric Chua,PAP,M,14
 Eric Chua,PAP,M,15
+Eric. Cheong Yuen Chee,PAP,,5
+Eugene Yap,PAP,,5
+Eugene Yap Giau Chang,PAP,,4
+Eugene Yap Giau Cheng,PAP,,4
+Eugene Yap Giau Cheng,PAP,,5
+Eugene Yap Giau Cheng,PAP,,6
+Eugene Yap Giau Cheng,PAP,,7
+Eugene Yap Giau Cheng,PAP,,8
+Eugene Yap Giau Cheng,PAP,,9
+Eugene Yap Giau Chong,PAP,,4
+Eunice Elizabeth Olsen,NMP,,10
+Eunice Elizabeth Olsen,NMP,,11
+F. N. Glineur. The Chief Minister,PAP,,0
 Fadli Fawzi,WP,M,15
 Faizah Jamal,NMP,F,12
+Fang Ai Lian,NMP,,10
+"Fatimah
+
+Lateef",PAP,,11
+"Fatimah
+Lateef",PAP,,12
 Fatimah Lateef,PAP,F,12
 Fatimah Lateef,PAP,F,13
+Fong Kim Heng,PAP,,0
+Fong Sip Chee,PAP,,1
+Fong Sip Chee,PAP,,2
+Fong Sip Chee,PAP,,3
+Fong Sip Chee,PAP,,4
+Fong Sip Chee,PAP,,5
+Fong Swee Suan. The Prime Minister,PAP,,0
 Foo Cexiang,PAP,M,15
 Foo Mee Har,PAP,F,12
 Foo Mee Har,PAP,F,13
 Foo Mee Har,PAP,F,14
+Foo Mee Har West Coast,PAP,,12
+Foo. Mrs Yu-Foo Yee Shoon,PAP,,8
+Foo. Mrs Yu-Foo Yee Shoon,PAP,,9
+Francis Seow,PAP,,6
+Francis Thomas,LF,,0
+Francis Thomas rose- Mr Speaker,PAP,,0
+Fung Yin Ching,PAP,,0
+G. A. P Sutherland,PAP,,0
+G. A. P. Sutherland,PAP,,0
+G. F. A. Hibberd. Tun Lim Yew Hock,PAP,,0
+G. G. Thomson,PAP,,0
+G. Kandasamy,PAP,,0
 Gabriel Lam,PAP,M,15
+Gan Kim,PAP,,11
+Gan Kim Yong,PAP,M,7
+Gan Kim Yong,PAP,M,8
+Gan Kim Yong,PAP,M,9
+Gan Kim Yong,PAP,M,10
+Gan Kim Yong,PAP,M,11
 Gan Kim Yong,PAP,M,12
 Gan Kim Yong,PAP,M,13
 Gan Kim Yong,PAP,M,14
 Gan Kim Yong,PAP,M,15
+Gan See Khem,PAP,,10
 Gan Siow Huang,PAP,F,14
 Gan Siow Huang,PAP,F,15
 Gan Thiam Poh,PAP,M,12
 Gan Thiam Poh,PAP,M,13
 Gan Thiam Poh,PAP,M,14
+Gan. Healthcare Cost Mr Gan Kim Yong,PAP,,10
 Ganesh Rajaram,NMP,M,13
+Gautam Banerjee,NMP,,11
+Geh Min,PAP,,10
+Geoffrey Lloyd,PAP,,0
+George Yeo,PAP,M,7
+George Yeo,PAP,M,8
+George Yeo,PAP,M,9
+George Yeo,PAP,M,10
+George Yeo,PAP,M,11
+George Yong Boon Yeo,PAP,,8
+George Yong-Boon Yeo,PAP,,7
+George Yong-Boon Yeo,PAP,,8
+George Yong-Boon Yeo,PAP,,9
+George Yong-Boon Yeo,PAP,,10
+George Yong-Boon Yeo,PAP,,11
+George from page 111,PAP,,6
+Gerald Ee,PAP,,9
+"Gerald Giam Yean
+Song",PAP,,12
 Gerald Giam Yean Song,WP,M,12
 Gerald Giam Yean Song,WP,M,14
 Gerald Giam Yean Song,WP,M,15
+Gerard Ee,PAP,,9
 Gho Sze Kee,PAP,F,15
+Goh Chee Wee,PAP,,5
+Goh Chee Wee,PAP,,6
+Goh Chee Wee,PAP,,7
+Goh Chee Wee,PAP,,8
+Goh Chee Wee,PAP,,9
+Goh Chew Chua,PAP,,0
+Goh Chok Tong,PAP,M,7
+Goh Chok Tong,PAP,M,8
+Goh Chok Tong,PAP,M,9
+Goh Chok Tong,PAP,M,10
+Goh Chok Tong,PAP,M,11
 Goh Chok Tong,PAP,M,12
 Goh Chok Tong,PAP,M,13
+Goh Chok Tong had said,PAP,,11
+Goh Chong Chia,NMP,,9
+Goh Choon Kang,PAP,,6
+Goh Choon Kang,PAP,,7
+Goh Choon Kang,PAP,,8
+Goh Choon Kang,PAP,,9
 Goh Hanyan,PAP,F,15
+Goh Keng Swee,PAP,M,1
+Goh Keng Swee,PAP,M,2
+Goh Keng Swee,PAP,M,3
+Goh Keng Swee,PAP,M,4
+Goh Keng Swee,PAP,M,5
+Goh Keng Swee,PAP,M,6
+Goh Keng Swee,PAP,M,7
+Goh Keng Swee,PAP,M,8
+Goh Keng Swee,PAP,M,9
+Goh Keng Swee,PAP,M,10
+Goh Keng Swee,PAP,M,11
+Goh Kong Swee,PAP,,4
 Goh Pei Ming,PAP,M,15
+Goh Tong Liang,PAP,,0
+Goh said,PAP,,10
+Goh talked about Singapore thus,PAP,,10
+Goh then said,PAP,,1
+Goh well,PAP,,10
+Goh's - Dr Goh Keng Swee,PAP,,0
+Goh. The Chinese saying goes,PAP,,4
+Gonzales,PAP,,1
+Goode,COLONIAL,,0
+Govindaswamy,PAP,,1
+Grace Fu Hai,PAP,,11
 Grace Fu Hai Yien,PAP,F,12
 Grace Fu Hai Yien,PAP,F,13
 Grace Fu Hai Yien,PAP,F,14
 Grace Fu Hai Yien,PAP,F,15
+Graham said,PAP,,6
+Greenspan. He said,PAP,,9
+Haji Mohd. Ariff,PAP,,2
+Haji Mohd. Ariff,PAP,,3
+Haji Mohd. Ariff Bin Suradi,PAP,,2
+Haji Mohd. Ariff Bin Suradi,PAP,,3
+Haji Rahmat Bin Kenap,PAP,,2
+Haji Rahmat Kenap,PAP,,2
+Haji Ya'acob,PAP,,2
+Haji Ya'acob Bin Mohamed,PAP,,2
+Haji Yaacob,PAP,,1
+Haji Yaacob Bin Mohamed,PAP,,1
+Haji Yaacob bin Mohamed,PAP,,1
 Halimah Yacob,PAP,F,12
 Halimah Yacob,PAP,F,13
+Halimah Yacob. Mdm Halimah Yacob,PAP,,11
+Halimah asked,PAP,,11
+Halimah now says,PAP,,10
+Halimah. Mdm Halimah Yacob,PAP,,10
+Halimah. Mdm Halimah Yacob,PAP,,11
 Hamid Razak,PAP,M,15
 Hany Soh,PAP,F,14
 Hany Soh,PAP,F,15
 Haresh Singaraju,NMP,M,15
+Harry Elias,PAP,,6
+Hart,COLONIAL,,0
+Harun A Ghani,PAP,,9
+Harun A. Ghani,PAP,,9
+Harun Bin A. Ghani,PAP,,8
+Harun Bin A. Ghani,PAP,,9
+Harun bin A Ghani,PAP,,8
+Harun bin A. Ghani,PAP,,8
+Harun bin A. Ghani,PAP,,9
+Harun. Encik Harun bin A. Ghani,PAP,,8
+Hawazi,PAP,,11
 Hawazi Daipi,PAP,M,12
 Hazel Poa,PSP,F,14
 Hazlina Abdul Halim,PAP,F,15
@@ -154,21 +695,153 @@ He Ting Ru,WP,F,15
 Heng Chee How,PAP,M,12
 Heng Chee How,PAP,M,13
 Heng Chee How,PAP,M,14
+Heng Chee How asks,PAP,,11
+Heng Chiang Meng,PAP,,6
+Heng Chiang Meng,PAP,,7
+Heng Chiang Meng,PAP,,8
+Heng Chiang Meng,PAP,,9
+Heng Chiang Meng was right in asking,PAP,,8
+"Heng Swee
+Keat",PAP,,12
+Heng Swee Keat,PAP,M,7
+Heng Swee Keat,PAP,M,8
+Heng Swee Keat,PAP,M,9
+Heng Swee Keat,PAP,M,10
+Heng Swee Keat,PAP,M,11
 Heng Swee Keat,PAP,M,12
 Heng Swee Keat,PAP,M,13
 Heng Swee Keat,PAP,M,14
+Heng Swee Keat,PAP,,12
+Heng asked,PAP,,7
+Henry Kwek,PAP,,14
+Henry Kwek,PAP,,15
+Higham,PAP,,0
+Ho  Peng Kee,PAP,,9
+Ho Cheng Choon,PAP,,1
+Ho Cheng Choon,PAP,,2
+Ho Cheng Choon,PAP,,3
+Ho Cheng Choon,PAP,,4
+Ho Geok Choo,PAP,,10
+Ho Geok Choo,PAP,,11
+Ho Geok Choo. Mdm Ho Geok Choo,PAP,,10
+Ho Kah Leong,PAP,,1
+Ho Kah Leong,PAP,,2
+Ho Kah Leong,PAP,,3
+Ho Kah Leong,PAP,,4
+Ho Kah Leong,PAP,,5
+Ho Kah Leong,PAP,,6
+Ho Kah Leong,PAP,,7
+Ho Kah Leong,PAP,,8
+Ho Peng,PAP,,9
+Ho Peng Kee,PAP,,8
+Ho Peng Kee,PAP,,9
+Ho Peng Kee,PAP,,10
+Ho Peng Kee,PAP,,11
+Ho See Beng,PAP,,1
+Ho See Beng,PAP,,2
+Ho See Beng,PAP,,3
+Ho See Beng,PAP,,4
+Ho See Beng,PAP,,5
+Ho See Bong,PAP,,3
+Ho See Bong,PAP,,4
+Ho See Bong,PAP,,5
+Ho Tat Kin,PAP,,6
+Ho Tat Kin,PAP,,7
+Ho Tat Kin,PAP,,8
+Ho Tat Kin,PAP,,9
+Ho replied,PAP,,8
+Ho. ' Dr Lee Boon Yang,PAP,,6
+Ho. Mdm Ho Geok Choo,PAP,,10
+Ho. Mdm Ho Geok Choo,PAP,,11
+Ho. Page,PAP,,12
+Hoe Puay Choo,PAP,,0
+Hoe. Madam Hoe Puay Choo,PAP,,0
+Hoffman,PAP,,0
+Hon Sui San,PAP,,4
+Hon Sui Sea,PAP,,3
+Hon Sui Sen,PAP,,2
+Hon Sui Sen,PAP,,3
+Hon Sui Sen,PAP,,4
+Hon Sui Sen,PAP,,5
+Hon Sui Son,PAP,,4
+Hong Hai,PAP,,7
+Hong Hai got it right when he said,PAP,,7
+Hong Hai has raised is,PAP,,7
 Hoon Hian Teck,NMP,M,14
+Howe Yoon Chong,PAP,,4
+Howe Yoon Chong,PAP,,5
+Hri Kumar,PAP,,11
 Hri Kumar Nair,PAP,M,12
+Hu Tsu Tau,PAP,,6
+Hu gave this reassurance,PAP,,9
+Huang Tze-chin said,PAP,,0
+Hwang Soo Jin,PAP,,2
+Hwang Soo Jin,PAP,,3
+Hwang Soo Jin,PAP,,4
+Hwang Soo Jin,PAP,,5
+Ibrahim Bin Othman,PAP,,8
+Ibrahim Bin Othman,PAP,,9
+Ibrahim Othman,PAP,,6
+Ibrahim Othman,PAP,,7
+Ibrahim Othman. Encik Ibrahim Othman,PAP,,6
+Ibrahim bin Othman,PAP,,8
+Ibrahim bin Othman,PAP,,9
+Ibrahim. Encik Ibrahim Othman,PAP,,6
+Ibrahim. Encik Ibrahim Othman,PAP,,7
+Ibrahim. Encik Ibrahim bin Othman,PAP,,8
+Ibrahim. Encik Ibrahim bin Othman,PAP,,9
+Imram Bin Mohamed,NMP,,8
+Imram bin Mohamed,PAP,,8
+Imram bin Mohammed,PAP,,8
+Imram. Encik Imram bin Mohamed,PAP,,8
+Inderjit Singh,PAP,M,7
+Inderjit Singh,PAP,M,8
+Inderjit Singh,PAP,M,9
+Inderjit Singh,PAP,M,10
+Inderjit Singh,PAP,M,11
 Inderjit Singh,PAP,M,12
+Inderjit Singh brought up the point,PAP,,10
+Indranee Rajah,PAP,,10
+Indranee Rajah,PAP,,11
 Indranee Rajah,PAP,F,12
 Indranee Rajah,PAP,F,13
 Indranee Rajah,PAP,F,14
 Indranee Rajah,PAP,F,15
+Indranee Rajah to describe the elephant. His reply was this,PAP,,11
+Indranee Rajah,PAP,,12
 Intan Azura Mokhtar,PAP,F,12
 Intan Azura Mokhtar,PAP,F,13
+Irene Ng,PAP,,10
 Irene Ng Phek Hoong,PAP,F,12
+Irene Ng Phek Hoong,PAP,,12
+Irene Ng asked,PAP,,10
+Irene Ng on the mainstream media,PAP,,11
 Irene Quay Siew Ching,NMP,F,13
+Ismail Rahim,PAP,,0
+Iswaran,PAP,,9
+Iswaran,PAP,,10
+Iswaran,PAP,,11
+Iswaran asked,PAP,,9
+Ivan Baptist,PAP,,3
+Ivan Baptist,PAP,,4
+Ivan Png Paak Liang,PAP,,10
+J B Jeyaretnam,WP,M,5
+J B Jeyaretnam,WP,M,6
+J B Jeyaretnam,WP,M,9
+J. B. Jeyaretnam,WP,,5
+J. B. Jeyaretnam,WP,,6
+J. B. Jeyaretnam,WP,,9
+J. D. Higham,PAP,,0
+J. F. Conceicao,PAP,,2
+J. F. Conceicao,PAP,,3
+J. F. Conceicao,PAP,,4
+J. M. Jumabhoy,LF,,0
+J. M. Jumabhoy resumed his seat. Sir Ewen Fergusson,PAP,,0
+J. M. Jumabhoy rose- Mr Speaker,PAP,,0
+J. M. Mason,PAP,,0
+Jabbar,PAP,,5
 Jackson Lam,PAP,M,15
+James Puthucheary. He had this to say,PAP,,0
 Jamus Jerome Lim,WP,M,14
 Jamus Jerome Lim,WP,M,15
 Janet Ang,NMP,F,14
@@ -178,120 +851,563 @@ Janil Puthucheary,PAP,M,13
 Janil Puthucheary,PAP,M,14
 Janil Puthucheary,PAP,M,15
 Jasmin Lau,PAP,F,15
+Jayakumar,PAP,M,7
+Jayakumar,PAP,M,8
+Jayakumar,PAP,M,9
+Jayakumar,PAP,M,10
+Jayakumar,PAP,M,11
+Jayakumar. Prof. Jayakumar,PAP,,7
+Jayakumar. Prof. Jayakumar,PAP,,8
 Jeffrey Siow,PAP,M,15
+Jek,PAP,,2
+Jek Yeun Thong,PAP,,1
+Jek Yeun Thong,PAP,,2
+Jek Yeun Thong,PAP,,3
+Jek Yeun Thong,PAP,,4
+Jek Yeun Thong,PAP,,6
+Jennifer Lee,PAP,,9
+Jennifer Lee,PAP,,10
+"Jessica
+
+Tan Soon Neo",PAP,,11
 Jessica Tan Soon Neo,PAP,F,12
 Jessica Tan Soon Neo,PAP,F,13
 Jessica Tan Soon Neo,PAP,F,14
 Jessica Tan Soon Neo,PAP,F,15
+Jessie Phua,NMP,,11
+Jeyaretenam,PAP,,6
+Jeyaretnam,WP,,5
+Jeyaretnam,WP,,6
+Jeyaretnam,WP,,9
+Jeyaretnam asked,PAP,,9
+Jeyaretnam mentions is,PAP,,9
+Jeyaretnam reported to his constituents,PAP,,6
+Jeyaretnam speaking,PAP,,6
+Jeyaretnam's,PAP,,5
+Jeyaretnam. Encik Sidek bin Saniff,PAP,,6
+Jeyaretnam. Maj Fong Sip Chee,PAP,,6
+Jeyaretnam. The Prime Minister,PAP,,5
+Jeyaretnam. The Prime Minister,PAP,,6
 Joan Pereira,PAP,F,13
 Joan Pereira,PAP,F,14
 Joan Pereira,PAP,F,15
+John  Ede,PAP,,0
+John Chen,PAP,,7
+John Chen,PAP,,8
+John Chen Seow,PAP,,9
+John Chen Seow Phun,PAP,,7
+John Chen Seow Phun,PAP,,8
+John Chen Seow Phun,PAP,,9
+John Chen Seow Phun,PAP,,10
+John Chen Seow Phun (for the Minister for National Development,PAP,,9
+John Chen and a few others asked,PAP,,10
+John De Payva,PAP,,8
+John Ede,PP,M,0
+John Mammen,PAP,,0
+John de Payva,PAP,,8
+Joscelin Yeo,NMP,,11
+Josephine,PAP,,13
+"Josephine
+Teo",PAP,,12
 Josephine Teo,PAP,F,12
 Josephine Teo,PAP,F,13
 Josephine Teo,PAP,F,14
 Josephine Teo,PAP,F,15
+Josephine Teo asked,PAP,,11
+Josephine Teo. Mrs Josephine Teo,PAP,,11
+Joshua Benjamin Jeyaretnam,PAP,,5
+Jumabhoy quoted - Mr Speaker,PAP,,0
+Justice Chua,PAP,,0
+"K
+Shanmugam",PAP,,12
 K Karthikeyan,NMP,M,12
+K Shanmugam,PAP,M,7
+K Shanmugam,PAP,M,8
+K Shanmugam,PAP,M,9
+K Shanmugam,PAP,M,10
+K Shanmugam,PAP,M,11
 K Shanmugam,PAP,M,12
 K Shanmugam,PAP,M,13
 K Shanmugam,PAP,M,14
 K Shanmugam,PAP,M,15
 K Thanaletchimi,NMP,F,13
+K. M. Byrne,PAP,,0
+K. Shanmugam,PAP,,7
+K. Shanmugam,PAP,,8
+K. Shanmugam,PAP,,9
+K. Shanmugam,PAP,,10
+Kalyani K Mehta,PAP,,11
+Kandasamy,PAP,,0
+Kanwaljit Soin,PAP,,8
 Keith Chua,NMP,M,14
+Keng Ban Ee,PAP,,0
+Kenneth Chen,PAP,,9
+Kenneth Chen Khoon Lap,PAP,,9
+Kenneth Chen Koon Lap,PAP,,8
+Kenneth Chen Koon Lap,PAP,,9
 Kenneth Goh,NMP,M,15
 Kenneth Poon,NMP,M,15
 Kenneth Tiong Boon Kiat,WP,M,15
+Ker Sin Tze,PAP,,8
+Ker Sin Tze,PAP,,9
+Ker Sin Tze has asked,PAP,,9
+Khaw Boon Wan,PAP,M,7
+Khaw Boon Wan,PAP,M,8
+Khaw Boon Wan,PAP,M,9
+Khaw Boon Wan,PAP,M,10
+Khaw Boon Wan,PAP,M,11
 Khaw Boon Wan,PAP,M,12
 Khaw Boon Wan,PAP,M,13
+Klaus Toepfer noted,PAP,,10
+Ko Teck Kin. The voting was as follows,PAP,,0
+Koh,PAP,,0
+Koh Lam Son,PAP,,6
+Koh Lam Son,PAP,,7
 Koh Lian Pin,NMP,M,14
+Koh Lip Lin,PAP,,4
+Koh Lip Lin,PAP,,5
+Koh Lip Lin,PAP,,6
+Koh Lip Lin,PAP,,7
+Koh Lip Lin,PAP,,8
 Koh Poh Koon,PAP,M,13
 Koh Poh Koon,PAP,M,14
 Koh Poh Koon,PAP,M,15
+Koh said,PAP,,8
 Kok Heng Leun,NMP,M,13
+Koo Tsai Kee,PAP,,8
+Koo Tsai Kee,PAP,,9
+Koo Tsai Kee,PAP,,10
+Koo Tsai Kee,PAP,,11
+Koo Young,PAP,,1
+Kow Kee Seng,PAP,,0
 Kuah Boon Theng,NMP,F,15
 Kuik Shiao-Yin,NMP,F,12
 Kuik Shiao-Yin,NMP,F,13
 Kwek Hian Chuan Henry,PAP,M,13
 Kwek Hian Chuan Henry,PAP,M,14
 Kwek Hian Chuan Henry,PAP,M,15
+L. P. Rodrigo,PAP,,2
+L. P. Rodrigo,PAP,,3
+Lai Chong Ming. An hon. Member,PAP,,0
+Lai Tha Chai,PAP,,3
+Lai Tha Chai,PAP,,4
+Lai Tha Chai,PAP,,5
+Lai Tha Chai,PAP,,6
+"Lam Pin
+
+Min",PAP,,11
 Lam Pin Min,PAP,M,12
 Lam Pin Min,PAP,M,13
+Lau Ping Sum,PAP,,5
+Lau Ping Sum,PAP,,6
+Lau Ping Sum,PAP,,7
+Lau Ping Sum,PAP,,8
+Lau Ping Sun,PAP,,6
+Lau Teik Soon,PAP,,4
+Lau Teik Soon,PAP,,5
+Lau Teik Soon,PAP,,6
+Lau Teik Soon,PAP,,7
+Lau Teik Soon,PAP,,8
 Laurence Lien,NMP,M,12
+Laurence Wee Yoke Thong,NMP,,11
+"Lawrence
+Wong",PAP,,12
+Lawrence Leow Chin Hin,PAP,,10
+Lawrence Sia asked,PAP,,7
 Lawrence Wong,PAP,M,12
 Lawrence Wong,PAP,M,13
 Lawrence Wong,PAP,M,14
 Lawrence Wong,PAP,M,15
+Lazarous,PAP,,0
+Lee,PAP,,0
+Lee  Choon  Eng,PAP,,0
+"Lee Bee
+
+Wah",PAP,,11
 Lee Bee Wah,PAP,F,12
 Lee Bee Wah,PAP,F,13
+Lee Bee Wah. Er Lee Bee Wah,PAP,,11
+Lee Boon,PAP,,11
+Lee Boon  Yang,PAP,,11
+Lee Boon Yang,PAP,,6
+Lee Boon Yang,PAP,,7
+Lee Boon Yang,PAP,,8
+Lee Boon Yang,PAP,,9
+Lee Boon Yang,PAP,,10
+Lee Boon Yang,PAP,,11
+Lee Boon Yang (for the Minister for Home Affairs,PAP,,6
+Lee Chiaw Meng,PAP,,2
+Lee Chiaw Meng,PAP,,3
+Lee Chiaw Meng,PAP,,4
+Lee Chiaw Meng,PAP,,5
+Lee Choon Eng,LF,M,0
 Lee Hong Chuang,PAP,M,15
+Lee Hsien Loong,PAP,M,7
+Lee Hsien Loong,PAP,M,8
+Lee Hsien Loong,PAP,M,9
+Lee Hsien Loong,PAP,M,10
+Lee Hsien Loong,PAP,M,11
 Lee Hsien Loong,PAP,M,12
 Lee Hsien Loong,PAP,M,13
 Lee Hsien Loong,PAP,M,14
 Lee Hsien Loong,PAP,M,15
+Lee Hsien Loong Loong,PAP,,10
+Lee Hsien-Loong,PAP,,7
 Lee Hui Ying,PAP,F,15
+Lee Khoon Choy,PAP,,1
+Lee Khoon Choy,PAP,,3
+Lee Khoon Choy,PAP,,4
+Lee Khoon Choy,PAP,,5
+Lee Kuan Yew,PAP,M,0
+Lee Kuan Yew,PAP,M,1
+Lee Kuan Yew,PAP,M,2
+Lee Kuan Yew,PAP,M,3
+Lee Kuan Yew,PAP,M,4
+Lee Kuan Yew,PAP,M,5
+Lee Kuan Yew,PAP,M,6
+Lee Kuan Yew,PAP,M,7
+Lee Kuan Yew,PAP,M,8
+Lee Kuan Yew,PAP,M,9
+Lee Kuan Yew,PAP,M,10
+Lee Kuan Yew,PAP,M,11
 Lee Kuan Yew,PAP,M,12
+Lee Kuan Yew - Mr Speaker,PAP,,0
+Lee Kuan Yew again,PAP,,0
+Lee Kuan Yew at that time saying,PAP,,10
+Lee Kuan Yew rose- Mr Speaker,PAP,,0
+Lee Kuan Yew said,PAP,,7
+Lee Kuan Yew's amendment,PAP,,0
+Lee Kuan Yew. '. to add,PAP,,0
 Lee Li Lian,WP,F,12
+Lee Siew Choh,BS,M,0
+Lee Siew Choh,WP,M,7
+Lee Siew Choh gesticulated,PAP,,0
+Lee Siew-Choh,BS,,7
+Lee Siew-Choh rose Mr Speaker,PAP,,7
+Lee Siow Mong. ' Mr Lee said,PAP,,0
+Lee Teck Him,PAP,,1
+Lee Teck Him,PAP,,2
+Lee Teck Him sneezed again,PAP,,0
+Lee Tsao Yuan,PAP,,8
+Lee Tsao Yuan,PAP,,9
+Lee Tsao Yuan raised longer term issues,PAP,,8
 Lee Yi Shyan,PAP,M,12
 Lee Yi Shyan,PAP,M,13
+Lee Yiok Seng,PAP,,3
+Lee Yiok Seng,PAP,,4
+Lee Yiok Seng,PAP,,5
+Lee Yiok Seng,PAP,,6
+Lee Yiok Seng,PAP,,7
+Lee Yiok Seng,PAP,,8
+Lee Yiok Song,PAP,,4
+Lee Yock,PAP,,9
+Lee Yock Suan,PAP,,5
+Lee Yock Suan,PAP,,6
+Lee Yock Suan,PAP,,7
+Lee Yock Suan,PAP,,8
+Lee Yock Suan,PAP,,9
+Lee said,PAP,,0
+Lee. BG Lee Hsien Loong,PAP,,9
+Lee. Column,PAP,,0
+Lee Yi Shyan,PAP,,11
+Lennox-Boyd - Mr Speaker,PAP,,0
+Lennox-Boyd replies,PAP,,0
 Leon Perera,WP,M,13
 Leon Perera,WP,M,14
+Leong Chee Whye,NMP,,7
+Leong Horn Kee,PAP,,6
+Leong Horn Kee,PAP,,7
+Leong Horn Kee,PAP,,8
+Leong Horn Kee,PAP,,9
+Leong Horn Kee,PAP,,10
+Leong Keng Seng,PAP,,0
 Leong Mun Wai,PSP,M,14
+Leong Wai Mun,PAP,,14
+Lew Syn Pau,PAP,,7
+Lew Syn Pau,PAP,,8
+Lew Syn Pau,PAP,,9
+"Liang Eng
+
+Hwa",PAP,,11
 Liang Eng Hwa,PAP,M,12
 Liang Eng Hwa,PAP,M,13
 Liang Eng Hwa,PAP,M,14
 Liang Eng Hwa,PAP,M,15
+Liew Kok Pun,PAP,,5
 Lily Neo,PAP,F,12
 Lily Neo,PAP,F,13
+Lily Neo. Future Students Dr Lily Neo,PAP,,11
+Lim,PAP,,0
+Lim,PAP,,1
+Lim,PAP,,12
+"Lim
+Hng Kiang",PAP,,12
+Lim   Choon  Mong,PAP,,0
+Lim  Cher  Kheng,PAP,,0
+Lim  Yew Hock,PAP,,0
+"Lim Biow
+
+Chuan",PAP,,11
+Lim Biow Chuan,PAP,M,7
+Lim Biow Chuan,PAP,M,8
+Lim Biow Chuan,PAP,M,9
+Lim Biow Chuan,PAP,M,10
+Lim Biow Chuan,PAP,M,11
 Lim Biow Chuan,PAP,M,12
 Lim Biow Chuan,PAP,M,13
 Lim Biow Chuan,PAP,M,14
+Lim Biow Chuan,PAP,,12
+Lim Boon Heng,PAP,M,7
+Lim Boon Heng,PAP,M,8
+Lim Boon Heng,PAP,M,9
+Lim Boon Heng,PAP,M,10
+Lim Boon Heng,PAP,M,11
+Lim Boon Hong,PAP,,5
+Lim Chee Onn,PAP,,4
+Lim Chee Onn,PAP,,5
+Lim Chee Onn,PAP,,6
+Lim Cheng Lock,PAP,,1
+Lim Cheng Lock,PAP,,2
+Lim Cher Kheng,PAP,,0
+Lim Chin Siong,PAP,M,0
+Lim Ching Siong,PAP,,0
+Lim Ching Siong said,PAP,,0
+Lim Ching Siong's letter,PAP,,0
+Lim Ching Siong. The Chief Minister said,PAP,,0
+Lim Choon Mong,PP,M,0
+Lim Choon Mong rose Mr Speaker,PAP,,0
+Lim Choon Mong rose- Mr Speaker,PAP,,0
+Lim Guan Boo,PAP,,1
+Lim Guan Hoo,PAP,,1
+Lim Guan Hoo,PAP,,2
+Lim Guan Hoo,PAP,,3
+Lim Hng Hiang,PAP,,9
+Lim Hng Kiang,PAP,M,7
+Lim Hng Kiang,PAP,M,8
+Lim Hng Kiang,PAP,M,9
+Lim Hng Kiang,PAP,M,10
+Lim Hng Kiang,PAP,M,11
 Lim Hng Kiang,PAP,M,12
 Lim Hng Kiang,PAP,M,13
+Lim Huan Boon,PAP,,0
+Lim Hwee Hua,PAP,,9
+Lim Hwee Hua,PAP,,10
+Lim Hwee Hua,PAP,,11
+Lim Hwee Hua. Mrs Lim Hwee Hua,PAP,,9
+Lim Keen Teck,PAP,,0
+Lim Kim San,PAP,,1
+Lim Kim San,PAP,,2
+Lim Kim San,PAP,,3
+Lim Kim San,PAP,,4
+Lim Kim San. As Mr Lim recalled,PAP,,10
+Lim Koon Teck,PP,,0
+Lim Sek Kian of the - Mr Chan Sun Wing,PAP,,0
+Lim Shee Ping. And he goes on to say,PAP,,0
+Lim Soo Peng,PAP,,1
+Lim Soo Peng,PAP,,2
 Lim Sun Sun,NMP,F,13
+Lim Swee,PAP,,9
+Lim Swee Say,PAP,M,7
+Lim Swee Say,PAP,M,8
+Lim Swee Say,PAP,M,9
+Lim Swee Say,PAP,M,10
+Lim Swee Say,PAP,M,11
 Lim Swee Say,PAP,M,12
 Lim Swee Say,PAP,M,13
 Lim Wee Kiak,PAP,M,12
 Lim Wee Kiak,PAP,M,13
 Lim Wee Kiak,PAP,M,14
+Lim Yew Bock,PAP,,0
+Lim Yew Hock,LF,M,0
+Lim Yew Hock- Mr Lee Kuan Yew,PAP,,0
+Lim Yew Hock. Tun Lim Yew Hock,PAP,,0
+Lim asked,PAP,,11
+Lim asked,PAP,,12
+Lim has also asked,PAP,,11
+Lim said,PAP,,0
+Lim was quoted as follows,PAP,,0
+Lim was quoted as saying,PAP,,10
+Lim. 3. 47 p. m. Tun Lim Yew Hock,PAP,,0
+Lim. Mrs Lim Hwee Hua,PAP,,9
+Lim. Mrs Lim Hwee Hua,PAP,,10
+Lim. The Prime Minister,PAP,,0
+Lim. Tun Lim Yew Hock,PAP,,0
+Lin You Eng,PAP,,0
 Lina Chiam,SPP,F,12
+Ling How Dong,PAP,,8
+Ling How Doong,SDP,M,8
+Ling How Doong had asked,PAP,,8
+Ling also told President Ramos,PAP,,8
+Ling continued,PAP,,8
+Ling then went on to say and I quote,PAP,,8
+Lingam,PAP,,1
+Loh Meng See,PAP,,7
+Loh Meng See,PAP,,8
+Loh Meng See,PAP,,9
+Loh Meng See,PAP,,10
+Loo Choon Yong,PAP,,10
+Loo Choon Yong,PAP,,11
 Louis Ng Kok Kwang,PAP,M,13
 Louis Ng Kok Kwang,PAP,M,14
+Low,PAP,,8
+Low Guan Onn,PAP,,2
+Low Mr Low Yong Nguan,PAP,,2
+Low Por Tuck,PAP,,0
+Low Seow Chay,PAP,,7
+Low Seow Chay,PAP,,8
+Low Seow Chay,PAP,,9
+Low Seow Chay,PAP,,10
+Low Thia Khiang,WP,M,8
+Low Thia Khiang,WP,M,9
+Low Thia Khiang,WP,M,10
+Low Thia Khiang,WP,M,11
 Low Thia Khiang,WP,M,12
 Low Thia Khiang,WP,M,13
+Low Thia Khiang also echoes some of these sentiments,PAP,,9
+Low Thia Khiang asked,PAP,,10
+Low Thia Khiang says,PAP,,9
 Low Wu Yang Andre,WP,M,15
 Low Yen Ling,PAP,M,12
 Low Yen Ling,PAP,M,13
 Low Yen Ling,PAP,M,14
 Low Yen Ling,PAP,M,15
+Low Yong Nguan,PAP,,2
+Low made is,PAP,,8
+Low may ask,PAP,,10
+Low. Assoc. Prof. Low Seow Chay,PAP,,9
+"Lui Tuck
+Yew",PAP,,12
+Lui Tuck Yew,PAP,M,7
+Lui Tuck Yew,PAP,M,8
+Lui Tuck Yew,PAP,M,9
+Lui Tuck Yew,PAP,M,10
+Lui Tuck Yew,PAP,M,11
 Lui Tuck Yew,PAP,M,12
+M P D Nair,IND,M,0
+M. Ismail Rahim,PAP,,0
+M. K. A. Jabbar,PAP,,5
+M. P. D. Nair,PAP,,0
+M. P. D. Nair Mr Speaker,PAP,,0
+Mah Bow,PAP,,7
+Mah Bow Tan,PAP,M,7
+Mah Bow Tan,PAP,M,8
+Mah Bow Tan,PAP,M,9
+Mah Bow Tan,PAP,M,10
+Mah Bow Tan,PAP,M,11
 Mah Bow Tan,PAP,M,12
+Mah. Encik Yatiman Yusof,PAP,,7
 Mahdev Mohan,NMP,M,13
+Mahmud Awang,PAP,,1
+Mak Pak Shee,LF,M,0
+Mammen,PAP,,0
+Mammen Dr Lee Siew Choh,PAP,,0
+Mansor Haii Sukaimi,PAP,,5
+Mansor Haji Sukaimi,PAP,,4
+Mansor Haji Sukaimi,PAP,,5
+Mansor. Encik Mansor Haji Sukaimi,PAP,,4
 Mariam Jaafar,PAP,F,14
 Mariam Jaafar,PAP,F,15
 Mark Chay,NMP,M,14
 Mark Lee,NMP,M,14
 Mark Lee,NMP,M,15
+Marshall,LF,,0
+Marshall stated the following,PAP,,0
+Marshall. An hon. Member,PAP,,0
 Mary Liew,NMP,F,12
+Masagos Zulkifli,PAP,,14
 Masagos Zulkifli B M M,PAP,M,12
 Masagos Zulkifli B M M,PAP,M,13
 Masagos Zulkifli B M M,PAP,M,14
 Masagos Zulkifli B M M,PAP,M,15
+Mason,PAP,,0
+Matthias Yao Chi,PAP,,8
+Matthias Yao Chih,PAP,,8
+Matthias Yao Chih,PAP,,9
+Matthias Yao Chih,PAP,,10
+Matthias Yao Chih,PAP,,11
+Matthias Yao was quoted to have said,PAP,,9
+Maurice Choo,PAP,,7
+Melvin Yong,PAP,,14
 Melvin Yong Yik Chye,PAP,M,13
 Melvin Yong Yik Chye,PAP,M,14
 Melvin Yong Yik Chye,PAP,M,15
+Member,PAP,,1
+Menzies,PAP,,0
+Menzies said,PAP,,0
+"Michael
+
+Palmer",PAP,,11
+Michael Fernandez. He said,PAP,,8
+Michael Lim Chun Leng,PAP,,8
+Michael Lim Chun Leng,PAP,,9
+Michael Lim Chun Leng,PAP,,10
+Michael Palmer,PAP,,11
+Michael Palmer,PAP,,12
+Mildred Tan,NMP,,11
+Minister. Madam Chan Choy Siong,PAP,,2
+"Mohamad
+Maliki Bin Osman",PAP,,12
+Mohamad Maidin,PAP,,8
+Mohamad Maidin,PAP,,9
+Mohamad Maidin B P M,PAP,,8
+Mohamad Maidin B P M,PAP,,9
+Mohamad Maidin B P M,PAP,,10
 Mohamad Maliki Bin Osman,PAP,M,12
 Mohamad Maliki Bin Osman,PAP,M,13
 Mohamad Maliki Bin Osman,PAP,M,14
+Mohamad Maliki bin Osman,PAP,,10
+Mohamed Ali Bin Alwi,PAP,,0
 Mohamed Irshad,NMP,M,13
+Mohamed Maliki Bin Osman,PAP,,10
+Mohamed Maliki bin Osman,PAP,,10
+Mohamed Sidik,PAP,,0
+Mohamed Sidik Bin Haji Abdul Hamid,PAP,,0
+Mohamed Sidik bin Haji Abdul Hamid,PAP,,0
+Mohammad Maidin B P M,PAP,,8
+Mohd Ali Bin Alwi,PAP,,0
 Mohd Fahmi Aliman,PAP,M,14
+Mohd Fahmi Bin Aliman,PAP,,14
 Mohd Ismail Hussein,NMP,M,12
+Mohd. Ali,PAP,,0
+Mohd. Ali Bin Aiwi,PAP,,0
+Mohd. Ali Bin Alwi,PAP,,0
+Mohd. Ali Bin Alwi Kampong Kembangan,PAP,,0
+Mohd. Ariff,PAP,,1
+Mohd. Ariff,PAP,,2
+Mohd. Ariff Bin Suradi,PAP,,1
+Mohd. Ariff Bin Suradi,PAP,,2
+Mohd. Ghazali,PAP,,2
+Mohd. Ghazali Bin Ismail,PAP,,2
+Mohd. Sidik Bin Haji Abdul Hamid,PAP,,0
+Mohd.Sidik Bin Haji Abdul Hamid,PAP,,0
+Mr K Shanmugam,PAP,,13
+Mr Ong Ye Kung,PAP,,13
+"Muhamad Faisal
+Bin Abdul Manap",PAP,,12
+"Muhamad Faisal Bin
+Abdul Manap",PAP,,12
 Muhamad Faisal Bin Abdul Manap,WP,M,12
 Muhamad Faisal Bin Abdul Manap,WP,M,13
 Muhamad Faisal Bin Abdul Manap,WP,M,14
+Muhamad Faisal Bin Abdul Manap,PAP,,12
+"Muhammad
+
+Faishal Ibrahim",PAP,,11
+Muhammad Faishal Ibrahim,PAP,,11
+Muhammad Faishal Ibrahim,PAP,,12
+Muhammad Faishal Ibrahim,PAP,,13
+Muhammad Faishal Ibrahim,PAP,,14
+Muhammad Faishal Ibrahim,PAP,,15
 Murali Pillai,PAP,M,13
 Murali Pillai,PAP,M,14
 Murali Pillai,PAP,M,15
+N. Govindasamy,PAP,,2
+N. Govindasamy,PAP,,3
 Nadia Ahmad Samdin,PAP,F,14
 Nadia Ahmad Samdin,PAP,F,15
+Nair,PAP,,0
+Nehru and India. The Chief Minister,PAP,,0
+Nehru never had to say,PAP,,0
 Neil Parekh Nimil Rajnikant,NMP,M,14
 Neo Kok Beng,NMP,M,15
 Ng Chee Meng,PAP,M,13
@@ -299,142 +1415,842 @@ Ng Chee Meng,PAP,M,15
 Ng Eng Hen,PAP,M,12
 Ng Eng Hen,PAP,M,13
 Ng Eng Hen,PAP,M,14
+Ng Kah Ting,PAP,,1
+Ng Kah Ting,PAP,,2
+Ng Kah Ting,PAP,,3
+Ng Kah Ting,PAP,,4
+Ng Kah Ting,PAP,,5
+Ng Kah Ting,PAP,,6
+Ng Kah Ting,PAP,,7
+Ng Kah Ting. The Prime Minister,PAP,,4
 Ng Ling Ling,PAP,F,14
+Ng Pock Too,PAP,,7
+Ng Pock Too - Mr Jeyaretnam,PAP,,6
+Ng Ser Miang,NMP,,10
 Ng Shi Xuan,PAP,F,15
+Ng Teng Kian,PAP,,0
+Ng Yeow Chong,PAP,,1
+Ng Yeow Chong,PAP,,2
+Ng Yeow Chong,PAP,,3
+Ng Yeow Chong,PAP,,4
+Ng's property is as follows,PAP,,11
+Ngeow Pack Hua,PAP,,4
+Ngeow Pack Hue,PAP,,4
+Ngiam Tee Liang,NMP,,10
 Nicholas Fang,NMP,M,12
+Nithiah Nandan,PAP,,10
+Noris Ong Chin Guan,PAP,,9
+Olivia Lum,PAP,,10
+Olivia Lum Ooi Lin,PAP,,10
+Ong Ah Heng,PAP,,9
+Ong Ah Heng,PAP,,10
+Ong Ah Heng,PAP,,11
+Ong Chang Sam,BS,,0
+Ong Chin Chung,PAP,,7
+Ong Chit Chung,PAP,,7
+Ong Chit Chung,PAP,,8
+Ong Chit Chung,PAP,,9
+Ong Chit Chung,PAP,,10
+Ong Chit Chung,PAP,,11
+Ong Chit Chung asked,PAP,,9
+Ong Eng Guan,UPP,M,0
+Ong Eng Lian Auditors,PAP,,0
 Ong Hua Han,NMP,M,14
+Ong Kian Min,PAP,,9
+Ong Kian Min,PAP,,10
+Ong Kian Min,PAP,,11
+Ong Kian Min have asked,PAP,,9
+Ong Leong Boon,PAP,,3
+Ong Leong Boon,PAP,,4
+Ong Leong Boon reads as follows,PAP,,4
+Ong Lian Teng,PAP,,1
+Ong Lian Teng were not proceeded with,PAP,,0
+Ong Pang Boon,PAP,M,1
+Ong Pang Boon,PAP,M,2
+Ong Pang Boon,PAP,M,3
+Ong Pang Boon,PAP,M,4
+Ong Pang Boon,PAP,M,5
+Ong Pang Boon,PAP,M,6
+Ong Pang Boon,PAP,M,7
+Ong Pang Boon,PAP,M,8
+Ong Pang Boon,PAP,M,9
+Ong Pang Boon,PAP,M,10
+Ong Pang Boon,PAP,M,11
+Ong Piah Teng,PAP,,0
+Ong Seh Hong,PAP,,10
+Ong Seh Hong,PAP,,11
+Ong Seh Hong asked,PAP,,11
+Ong Soh Khim,PAP,,10
+Ong Soo Chuan,PAP,,2
+Ong Soo Chuan,PAP,,3
+Ong Soo Chuan,PAP,,4
+Ong Teng Cheong,PAP,,3
+Ong Teng Cheong,PAP,,4
+Ong Teng Cheong,PAP,,5
+Ong Teng Cheong,PAP,,6
+Ong Teng Cheong,PAP,,7
+Ong Teng Cheong,PAP,,8
+Ong Teng Choong,PAP,,5
 Ong Teng Koon,PAP,M,12
 Ong Teng Koon,PAP,M,13
 Ong Ye Kung,PAP,M,13
 Ong Ye Kung,PAP,M,14
 Ong Ye Kung,PAP,M,15
+Ong's cut,PAP,,11
+Ong. SAVERS Scheme Dr Ong Chit Chung,PAP,,10
+Oon Khye Kiang,PAP,,0
+Othman Bin Haron,PAP,,9
+Othman Bin Haron Eusofe,PAP,,8
+Othman Bin Haron Eusofe,PAP,,9
+Othman Bin Wok,PAP,,1
+Othman Bin Wok,PAP,,2
+Othman Bin Wok,PAP,,3
+Othman Bin Wok,PAP,,4
+Othman Haron Eusofe,PAP,,10
+Othman Haron bin Eusofe,PAP,,8
+Othman Wok,PAP,,2
+Othman bin Haron,PAP,,9
+Othman bin Haron Eusofe,PAP,,5
+Othman bin Haron Eusofe,PAP,,6
+Othman bin Haron Eusofe,PAP,,7
+Othman bin Haron Eusofe,PAP,,8
+Othman bin Haron Eusofe,PAP,,9
+Othman bin Wok,PAP,,1
+Othman bin Wok,PAP,,4
+Othman. Encik Othman bin Haron Eusofe,PAP,,5
+Othman. Encik Othman bin Haron Eusofe,PAP,,6
+Othman. Encik Othman bin Haron Eusofe,PAP,,8
+Ow Chin,PAP,,9
+Ow Chin Hock,PAP,,4
+Ow Chin Hock,PAP,,5
+Ow Chin Hock,PAP,,6
+Ow Chin Hock,PAP,,7
+Ow Chin Hock,PAP,,8
+Ow Chin Hock,PAP,,9
+P. Govindaswamy,PAP,,1
+P. Govindaswamy,PAP,,2
+P. Govindaswamy,PAP,,3
+P. Govindaswamy,PAP,,4
+P. Selvadurai,PAP,,1
+P. Selvadurai,PAP,,2
+P. Selvadurai,PAP,,3
+P. Selvadurai,PAP,,4
+P. Selvadurai,PAP,,5
+"Patrick Tay Teck
+Guan",PAP,,12
 Patrick Tay Teck Guan,PAP,M,12
 Patrick Tay Teck Guan,PAP,M,13
 Patrick Tay Teck Guan,PAP,M,14
 Patrick Tay Teck Guan,PAP,M,15
+Paulin Tay Straughan,NMP,,11
+Paulin  Tay  Straughan,PAP,,11
+Peh Chin Hua,PAP,,7
+Peh Chin Hua,PAP,,8
+Peh Chin Hua,PAP,,9
+Peh brought up three main points,PAP,,7
 Penny Low,PAP,F,12
+Perumal Nagesan. I quote,PAP,,5
+Peter Chen,PAP,,9
+Peter Sung,PAP,,7
+Peter Sung,PAP,,8
+Phey Yew Kok,PAP,,3
+Phey Yew Kok,PAP,,4
+Philip Tan Tee Yong,PAP,,6
+Philip Tan Tee Yong,PAP,,7
+Phua Bah Lee,PAP,,2
+Phua Bah Lee,PAP,,4
+Phua Bah Lee,PAP,,6
+Phua. Mdm Cynthia Phua,PAP,,10
+Phua. Mdm Cynthia Phua,PAP,,11
 Png Eng Huat,WP,M,12
 Png Eng Huat,WP,M,13
+Poh Ber Liak,PAP,,1
+Poh Ber Liak read as follows,PAP,,0
+Poh Ber Link,PAP,,0
 Poh Li San,PAP,F,14
 Poh Li San,PAP,F,15
+Prime Minister -  Mr Speaker,PAP,,0
+Prime Minister - Mr Speaker,PAP,,0
+Prime Minister - The Prime Minister,PAP,,6
+Prime Minister. The Prime Minister,PAP,,0
+Prime Minister. The Prime Minister,PAP,,1
+Prime Minister. The Prime Minister,PAP,,6
+Pritam,WP,,14
 Pritam Singh,WP,M,12
 Pritam Singh,WP,M,13
 Pritam Singh,WP,M,14
 Pritam Singh,WP,M,15
+Puthucheary. He said,PAP,,0
 R Dhinakaran,NMP,M,12
+R Jumabhoy,LF,M,0
+R Ravindran,PAP,,9
+R Ravindran,PAP,,10
+R Sinnakaruppan,PAP,,9
+R. A. Gonzales,PAP,,1
+R. C. H Lim,PAP,,0
+R. C. H. Lim,PAP,,0
+R. C. Hoffman,PAP,,0
+R. Jumabhoy,IND,,0
+R. Jumabhoy rose- Mr Speaker,PAP,,0
+R. Jumabhoy. The Chief Minister,PAP,,0
+R. Ravindran,PAP,,9
+R. Ravindran,PAP,,10
+R. Sinnakarupan,PAP,,9
+R. Sinnakaruppan,PAP,,8
+R. Sinnakaruppan,PAP,,9
 Rachel Ong,PAP,F,14
 Rachel Ong,PAP,F,15
 Raeesah Khan,WP,F,14
+Rahamat,PAP,,1
+Rahamat Bin Kenap,PAP,,1
 Rahayu Mahzam,PAP,F,13
 Rahayu Mahzam,PAP,F,14
 Rahayu Mahzam,PAP,F,15
+Rahim Ishak,PAP,,1
+Rahim Ishak,PAP,,2
+Rahim Ishak,PAP,,4
+Rahmat Bin Kenap,PAP,,2
+Rahmat Bin Kenap,PAP,,3
+Rahmat Bin Kenap Al-Haj,PAP,,2
+Rahmat Bin Kenap Al-Haj,PAP,,3
+Rahmat bin Kenap,PAP,,2
+Rahmat bin Kenap,PAP,M,3
+Rahmat bin Kenap,PAP,M,4
+Rahmat bin Kenap,PAP,M,5
 Raj Joshua Thomas,NMP,M,14
+Rajah,PAP,,0
+Rajah. Legal Aid Ms Indranee Rajah,PAP,,10
+Rajaratnam,PAP,,1
+Rajaratnam,PAP,,2
+Rajaratnam,PAP,,3
+Rajaratnam,PAP,,4
+Rajaratnam,PAP,,5
+Rajaratnam,PAP,,6
+Rajaratnam said,PAP,,0
+Rajoo,PAP,,1
+Ramaswamy,PAP,,1
+Ramaswamy,PAP,,2
 Randolph Tan,NMP,M,12
 Randolph Tan,NMP,M,13
+Ravindran,PAP,,9
+Ravindran,PAP,,10
+Raymond Anthony Fernando. He wrote,PAP,,11
+Raymond Lim Siang Keat,PAP,M,7
+Raymond Lim Siang Keat,PAP,M,8
+Raymond Lim Siang Keat,PAP,M,9
+Raymond Lim Siang Keat,PAP,M,10
+Raymond Lim Siang Keat,PAP,M,11
 Raymond Lim Siang Keat,PAP,M,12
+Raymond Lim Siang Keat,PAP,,10
+Rayner said,PAP,,0
+Rayner's reply was,PAP,,0
+Razak's statement,PAP,,0
 Razwana Begum Abdul Rahim,NMP,F,14
+Richard Hu,PAP,,8
+Richard Hu Tsu Tau,PAP,,6
+Richard Hu Tsu Tau,PAP,,7
+Richard Hu Tsu Tau,PAP,,8
+Richard Hu Tsu Tau,PAP,,9
+Richard HuTsu Tau,PAP,,9
 Rita Soh Siow Lan,NMP,F,12
+Rita Soh Siow Lan,PAP,,12
+Robert Chua Teck Chew,PAP,,8
+Robert Menzies,PAP,,0
+Rodrigo,PAP,,2
+Rodrigo,PAP,,3
+Rodrigues,PAP,,0
+Rohan bin Kamis,PAP,,4
+Rohan bin Kamis,PAP,,5
+Rohan bin Kamis was withdrawn,PAP,,5
 S Iswaran,PAP,M,12
 S Iswaran,PAP,M,13
 S Iswaran,PAP,M,14
+S Jayakumar,PAP,,7
+S Jayakumar,PAP,,9
+S Jayakumar,PAP,,10
+S Jayakumar,PAP,,11
+S R Nathan,PAP,,9
+S R Nathan,PAP,,11
+S Rajaratnam,PAP,M,1
+S Rajaratnam,PAP,M,2
+S Rajaratnam,PAP,M,3
+S Rajaratnam,PAP,M,4
+S Rajaratnam,PAP,M,5
+S Rajaratnam,PAP,M,6
+S Rajaratnam,PAP,M,7
+S Rajaratnam,PAP,M,8
+S Rajaratnam,PAP,M,9
+S Rajaratnam,PAP,M,10
+S Rajaratnam,PAP,M,11
+S T Bani,BS,M,0
+S Vasoo,PAP,,8
+S Vasoo,PAP,,9
+S. Chandra Das,PAP,,5
+S. Chandra Das,PAP,,6
+S. Chandra Das,PAP,,7
+S. Chandra Das,PAP,,8
+S. Dhanabalan,PAP,,4
+S. Dhanabalan,PAP,,5
+S. Dhanabalan,PAP,,6
+S. Dhanabalan,PAP,,7
+S. Dhanabalan,PAP,,8
+S. Iswaran,PAP,,9
+S. Iswaran,PAP,,10
+S. Jayakumar,PAP,,5
+S. Jayakumar,PAP,,6
+S. Jayakumar,PAP,,7
+S. Jayakumar,PAP,,8
+S. Jayakumar,PAP,,9
+S. Jayakumar,PAP,,10
+S. Rajaratnam,PAP,,1
+S. Rajaratnam,PAP,,2
+S. Rajaratnam,PAP,,3
+S. Rajaratnam,PAP,,4
+S. Rajaratnam,PAP,,5
+S. Rajaratnam,PAP,,6
+S. Rajoo,PAP,,1
+S. Ramaswamy,PAP,,1
+S. Ramaswamy,PAP,,2
+S. T. Bani,PAP,,0
+S. T. Bani'. An hon. Member,PAP,,0
+S. T. Stewart,PAP,,0
+S. T. \,PAP,,0
+S. V. Lingam,PAP,,1
+S. Vasoo,PAP,,6
+S. Vasoo,PAP,,7
+S. Vasoo,PAP,,8
+S. Vasoo,PAP,,9
+Sahorah Binte Ahmat,PAP,,0
+Saidi Haji Shariff,PAP,,5
+Saidi Haji Sheriff,PAP,,5
+Saidi Shariff,PAP,,5
+Saidi. Encik Saidi Haji Shariff,PAP,,5
 Saktiandi Supaat,PAP,M,13
 Saktiandi Supaat,PAP,M,14
 Saktiandi Supaat,PAP,M,15
 Sam Tan Chin Siong,PAP,M,12
 Sam Tan Chin Siong,PAP,M,13
+Sandys replied,PAP,,0
 Sanjeev Kumar Tiwari,NMP,M,15
+Saranjit Kaur mentioned the following,PAP,,11
+"Seah Kian
+
+Peng",PAP,,11
 Seah Kian Peng,PAP,M,12
 Seah Kian Peng,PAP,M,13
 Seah Kian Peng,PAP,M,14
 Seah Kian Peng,PAP,M,15
+Seah Mui Kok,PAP,,2
+Seah Mui Kok,PAP,,3
+Seah Mui Kok,PAP,,4
+Seah Mui Kok,PAP,,5
+Seah Peng Chuan,LF,M,0
 See Jinli Jean,NMP,F,14
+Seet Ai Mee,PAP,,7
+Selvadurai,PAP,,1
+Selvadurai,PAP,,2
+Selvadurai,PAP,,3
+Selvadurai,PAP,,5
+Selwyn Lloyd stated at a Tory rally,PAP,,0
 Seng Han Thong,PAP,M,12
+Seng Han Thong. Arts Mr Seng Han Thong,PAP,,10
+Seng Han Tong,PAP,,9
+Seng. Chatline Mr Seng Han Thong,PAP,,10
+Seow Peck Leng,LF,,0
+Seow Peck Leng. Mrs Seow Peck Leng,PAP,,0
+Seow then. Mrs Seow Peck Leng,PAP,,0
+Seow. Mrs Seow Peck Leng,PAP,,0
+Sha'ari Bin Tadin,PAP,,2
+Sha'ari Bin Tadin,PAP,,3
+Sha'ari bin Tadin,PAP,M,4
 Shahira Abdullah,NMP,F,14
+Shanks,PAP,,0
+Shanmugam,PAP,,7
+Shanmugam,PAP,,9
+Shanmugam,PAP,,11
 Sharael Taha,PAP,M,14
 Sharael Taha,PAP,M,15
+Shawn Huang,PAP,,14
+Shawn Huang,PAP,,15
 Shawn Huang Wei Zhong,PAP,M,14
 Shawn Huang Wei Zhong,PAP,M,15
 Shawn Loh,PAP,M,15
+Sheng Nam Chin,PAP,,0
+Shriniwas Rai,NMP,,9
+Shultz concluded that today,PAP,,10
+Sia Kah Hui,PAP,,1
+Sia Kah Hui,PAP,,2
+Sia Kah Hui,PAP,,3
+Sia Kah Hui,PAP,,4
+Sia Kah Hui,PAP,,5
+Sia Khoon Seong,PAP,,2
+Sia Khoon Seong,PAP,,3
+Sia Khoon Seong,PAP,,4
+Sia Khoon Seong,PAP,,5
+Sia Khoon Seong,PAP,,6
+Sia Khoon Seong,PAP,,7
+Sia Khoon Soong,PAP,,4
+Sia Khoon Soong,PAP,,5
+Sidek Bin Saniff,PAP,,4
+Sidek bin Saniff,PAP,,4
+Sidek bin Saniff,PAP,,5
+Sidek bin Saniff,PAP,,6
+Sidek bin Saniff,PAP,,7
+Sidek bin Saniff,PAP,,8
+Sidek bin Saniff,PAP,,9
+Sidek. Encik Sidek bin Saniff,PAP,,6
+Sidek. Encik Sidek bin Saniff,PAP,,8
+Siew Kum Hong,NMP,,11
 Sim Ann,PAP,F,12
 Sim Ann,PAP,F,13
 Sim Ann,PAP,F,14
 Sim Ann,PAP,F,15
+Sim Boon Woo,PAP,,1
+Sim Boon Woo,PAP,,2
+Sim Boon Woo,PAP,,3
+Simon S C Tay,PAP,,9
+Simon S. C. Tay,PAP,,9
+Simon Tay,PAP,,9
+Sin Boon An,PAP,,10
+Sin Boon Ann,PAP,M,7
+Sin Boon Ann,PAP,M,8
+Sin Boon Ann,PAP,M,9
+Sin Boon Ann,PAP,M,10
+Sin Boon Ann,PAP,M,11
+Sinnakaruppan,PAP,,8
+Sinnakaruppan,PAP,,9
 Sitoh Yih Pin,PAP,M,12
 Sitoh Yih Pin,PAP,M,13
 Sitoh Yih Pin,PAP,M,14
+Soh,PAP,,0
+Soh Ghee Soon,PAP,,0
+Soin,PAP,,8
+Soin also asked,PAP,,8
+Speaker -  Dr Goh Keng Swee,PAP,,0
+Speaker - Mr Speaker,PAP,,0
+Speaker - The Chief Minister,PAP,,0
+Speaker The Chief Minister,PAP,,0
+Speaker in the Chair,PAP,,10
+Speaker in the Chair,PAP,,11
+Speaker- Mr Speaker,PAP,,0
+Speaker. Inche Mahmud Awang,PAP,,1
+Speaker. Inche Yaacob Bin Mohamed,PAP,,0
+Speaker. The Member for Tanglin asked,PAP,,0
+Speaker. The Prime Minister,PAP,,0
+Speaker. The first is this,PAP,,0
+Speaker. Tun Lim Yew Hock,PAP,,0
+Speaker in the Chair,PAP,,13
+Stanley Ho,PAP,,6
+Stephen Lee Ching Yen,PAP,,8
+Steve Chia,SDA,M,10
+Steve Chia Kiah Hong,SDA,,10
+Stewart,PAP,,0
+Subandrio said,PAP,,0
 Sun Xueling,PAP,F,13
 Sun Xueling,PAP,F,14
 Sun Xueling,PAP,F,15
+Sutherland,PAP,,0
+Sutherland - Mr G. A. P. Sutherland,PAP,,0
+Sutherland and said,PAP,,0
+Sutherland was saying just now,PAP,,0
+Sutherland. The Chief Minister,PAP,,0
 Syed Harun Alhabsyi,NMP,M,14
 Syed Harun Alhabsyi,PAP,M,15
+Sylvia Lim,WP,F,11
 Sylvia Lim,WP,F,12
 Sylvia Lim,WP,F,13
 Sylvia Lim,WP,F,14
 Sylvia Lim,WP,F,15
+Sylvia Lim. CPF LIFE Ms Sylvia Lim,PAP,,11
+S Iswaran,PAP,,10
+T. M. Hart,PAP,,0
+Tan,PAP,,0
+Tan,PAP,,9
+Tan Boon Wan,PAP,,9
+Tan Boon Wan,PAP,,10
+Tan Boon Wan's amendment would read as follows,PAP,,10
+Tan Cheng Bock,PAP,,5
+Tan Cheng Bock,PAP,,6
+Tan Cheng Bock,PAP,,7
+Tan Cheng Bock,PAP,,8
+Tan Cheng Bock,PAP,,9
+Tan Cheng Bock,PAP,,10
+Tan Cheng Bock does not mind,PAP,,9
+Tan Cheng Bok,PAP,,7
+Tan Cheng San,PAP,,4
+Tan Cheng Sock,PAP,,5
+Tan Cheng Tong,PAP,,0
+Tan Cheng Tong. The Prime Minister,PAP,,0
 Tan Chuan-Jin,PAP,M,12
 Tan Chuan-Jin,PAP,M,13
 Tan Chuan-Jin,PAP,M,14
+Tan Eng Liang,PAP,,3
+Tan Eng Liang,PAP,,4
+Tan Eng hang,PAP,,4
+"Tan Kheng Boon
+Eugene",PAP,,12
 Tan Kheng Boon Eugene,NMP,M,12
+Tan Kia Gan,PAP,,0
 Tan Kiat How,PAP,M,14
 Tan Kiat How,PAP,M,15
+Tan See Chin. Mrs Seow Peck Leng,PAP,,0
 Tan See Leng,PAP,M,14
 Tan See Leng,PAP,M,15
+Tan Siak Kew,PAP,,0
+Tan Soo Khoon,PAP,,4
+Tan Soo Khoon,PAP,,5
+Tan Soo Khoon,PAP,,6
+Tan Soo Khoon,PAP,,10
 Tan Su Shan,NMP,F,12
+Tan Sze Wee,PAP,,10
 Tan Tai Yong,NMP,M,12
+Tan Theng Chiang,PAP,,0
 Tan Wu Meng,PAP,M,13
 Tan Wu Meng,PAP,M,14
 Tan Yia Swam,NMP,F,14
+Tan asks,PAP,,12
+Tan is asking is,PAP,,10
+Tang Guan Seng,PAP,,6
+Tang Guan Seng,PAP,,7
+Tang Guan Seng,PAP,,9
+Tang See  Chim,PAP,,1
+Tang See Chim,PAP,,1
+Tang See Chim,PAP,,2
+Tang See Chim,PAP,,4
+Tang See Chim,PAP,,5
+Tang See Chim,PAP,,6
+Tang See Chim and other hon. Members,PAP,,2
+Tang See Chum,PAP,,1
+Tay Beng Chuan,NMP,,9
+Tay Boon Too,PAP,,1
+Tay Boon Too,PAP,,2
+Tay Boon Too,PAP,,3
+Tay Eng Soon,PAP,,5
+Tay Eng Soon,PAP,,6
+Tay Eng Soon,PAP,,7
+Tay Eng Soon,PAP,,8
+Tee  Kim  Leng,PAP,,0
+Tee Kim Leng,PAP,,0
+Teh Cheang Wan,PAP,,4
+Teh Cheang Wan,PAP,,5
+Teh Cheang Wan,PAP,,6
+Teh Cheang Won,PAP,,5
+Teh Cheang Won,PAP,,6
+Teo Chee Hean,PAP,M,7
+Teo Chee Hean,PAP,M,8
+Teo Chee Hean,PAP,M,9
+Teo Chee Hean,PAP,M,10
+Teo Chee Hean,PAP,M,11
 Teo Chee Hean,PAP,M,12
 Teo Chee Hean,PAP,M,13
 Teo Chee Hean,PAP,M,14
+Teo Chong Tee,PAP,,4
+Teo Chong Tee,PAP,,5
+Teo Chong Tee,PAP,,6
+Teo Chong Tee,PAP,,7
+Teo Chong Tee,PAP,,8
 Teo Ho Pin,PAP,M,12
 Teo Ho Pin,PAP,M,13
+Teo Hock Guan,PAP,,0
+Teo Hup Teck,PAP,,1
+Teo Ser,PAP,,11
 Teo Ser Luck,PAP,M,12
 Teo Ser Luck,PAP,M,13
+Teo Ser Luck. Road Signs Mr Teo Ser Luck,PAP,,11
 Teo Siong Seng,NMP,M,12
+Teo Siong Seng has noted,PAP,,11
+Teo Yock Ngee,NMP,,10
+Teo's,PAP,,10
+Teo. Mrs Josephine Teo,PAP,,11
+Teong Eng Siong,PAP,,1
+Teong Eng Siong,PAP,,2
+Teong Eng Siong,PAP,,3
+Teong Eng Siong,PAP,,4
+Teong Eng Siong Mr L. P. Rodrigo,PAP,,2
+Teong. Head 1002 - Mr Teong Eng Siong,PAP,,1
 Terence Ho,NMP,M,15
 Terence Ho Wee San,NMP,M,13
+Terry Lee,NMP,,11
+Tharman Shanmugaratnam,PAP,M,7
+Tharman Shanmugaratnam,PAP,M,8
+Tharman Shanmugaratnam,PAP,M,9
+Tharman Shanmugaratnam,PAP,M,10
+Tharman Shanmugaratnam,PAP,M,11
 Tharman Shanmugaratnam,PAP,M,12
 Tharman Shanmugaratnam,PAP,M,13
 Tharman Shanmugaratnam,PAP,M,14
+Thatcher's Downing Street Policy Unit,PAP,,7
+Thio  Chan  Bee,PAP,,0
+Thio Chan Bee,SPA,,0
+Thio Li-ann,NMP,,11
+Thomas,PAP,,0
 Thomas Chua Kee Seng,NMP,M,12
 Thomas Chua Kee Seng,NMP,M,13
+Thomas Thomas,NMP,,9
 Tin Pei Ling,PAP,F,12
 Tin Pei Ling,PAP,F,13
 Tin Pei Ling,PAP,F,14
 Tin Pei Ling,PAP,F,15
+Toh Chin Chye,PAP,M,1
+Toh Chin Chye,PAP,M,2
+Toh Chin Chye,PAP,M,3
+Toh Chin Chye,PAP,M,4
+Toh Chin Chye,PAP,M,5
+Toh Chin Chye,PAP,M,6
+Toh Chin Chye,PAP,M,7
+Toh Chin Chye,PAP,M,8
+Toh Chin Chye,PAP,M,9
+Toh Chin Chye,PAP,M,10
+Toh Chin Chye,PAP,M,11
+Toh Keng Kiat,PAP,,8
+Toh See Kiat,PAP,,9
+Toh said,PAP,,0
+Toh. Assoc. Prof. Toh See Kiat,PAP,,9
+Tong Kok Yeo,NMP,,8
+Tony,PAP,,9
+Tony Tan,PAP,,5
+Tony Tan Keng Yam,PAP,,4
+Tony Tan Keng Yam,PAP,,5
+Tony Tan Keng Yam,PAP,,6
+Tony Tan Keng Yam,PAP,,7
+Tony Tan Keng Yam,PAP,,8
+Tony Tan Keng Yam,PAP,,9
+Tony Tan Keng Yam,PAP,,10
+Tony Tan Kong Yam,PAP,,5
+Tony Tan Kong Yam,PAP,,6
+Umar Abdul Hamid,PAP,,8
 Usha Chandradas,NMP,F,14
 Valerie Lee,PAP,F,15
+Vasoo,PAP,,6
+Vasoo,PAP,,7
+Vasoo,PAP,,8
+Vasoo,PAP,,9
+Vasoo also asked,PAP,,9
+Vasoo. Number four,PAP,,8
 Victor Lye,PAP,M,15
 Vikram Nair,PAP,M,12
 Vikram Nair,PAP,M,13
 Vikram Nair,PAP,M,14
 Vikram Nair,PAP,M,15
+Viswa Sadasivan,NMP,,11
+Viswa also made,PAP,,11
+Viswa  Sadasivan,PAP,,11
+Vivian,PAP,,11
+Vivian  Balakrishnan,PAP,,11
+Vivian Balakrishnan,PAP,M,7
+Vivian Balakrishnan,PAP,M,8
+Vivian Balakrishnan,PAP,M,9
+Vivian Balakrishnan,PAP,M,10
+Vivian Balakrishnan,PAP,M,11
 Vivian Balakrishnan,PAP,M,12
 Vivian Balakrishnan,PAP,M,13
 Vivian Balakrishnan,PAP,M,14
 Vivian Balakrishnan,PAP,M,15
+VivianColumn: 15034Balakrishnan,PAP,,10
+W. A. C. Goode,PAP,,0
 Walter Theseira,NMP,M,13
+Walter Woon,PAP,,8
+Wan Hussin Bin Hj Zoohri,PAP,,6
+Wan Hussin Zoohri,PAP,,5
+Wan Hussin Zoohri,PAP,,7
+Wan Hussin Zoohri was not proceeded with,PAP,,5
+Wan Hussin bin Haji Zoohri,PAP,,6
+Wan Hussin bin Haji Zoohri,PAP,,7
+Wan Hussin bin Hj Zoohri,PAP,,6
+Wan Hussin bin Hj Zoohri,PAP,,7
 Wan Rizal,PAP,M,14
 Wan Rizal,PAP,M,15
+Wan Soo Bee,PAP,,7
+Wan Soon Bee,PAP,,5
+Wan Soon Bee,PAP,,6
+Wan Soon Bee,PAP,,7
+Wan Soon Bee,PAP,,8
+Wan Soon Bee,PAP,,9
+Wang Kai Yuen,PAP,,6
+Wang Kai Yuen,PAP,,7
+Wang Kai Yuen,PAP,,8
+Wang Kai Yuen,PAP,,9
+Wang Kai Yuen,PAP,,10
+Wang added,PAP,,0
+Wang has asked,PAP,,10
+Wang. It says,PAP,,9
+Warbey is quoted to have said,PAP,,0
+Warren Lee,PAP,,10
+Wee Kim Wee,PAP,,6
+Wee Kim Wee,PAP,,7
+Wee Kim Wee,PAP,,8
+Wee Siew Kim,PAP,,10
+Wee Siew Kim,PAP,,11
+Wee Toon Boon,PAP,,1
+Wee Toon Boon,PAP,,2
+Wee Toon Boon,PAP,,3
+Wee Toon Boon asked,PAP,,0
+Wee Toon Boon speaking again,PAP,,0
+William  Tan,PAP,,0
+William Swee of the O. C. B. C,PAP,,0
+William Tan,DP,M,0
+Williams,PAP,,0
+Winsemius did say that - Mr Speaker,PAP,,5
+Winslow,PAP,,0
+Wong Foo Nam,PAP,,0
+Wong Kan Seng,PAP,M,7
+Wong Kan Seng,PAP,M,8
+Wong Kan Seng,PAP,M,9
+Wong Kan Seng,PAP,M,10
+Wong Kan Seng,PAP,M,11
 Wong Kan Seng,PAP,M,12
+Wong Kan Song,PAP,,6
+Wong Kang Seng,PAP,,8
+Wong Kwei Cheong,PAP,,5
+Wong Kwei Cheong,PAP,,6
+Wong Kwei Cheong,PAP,,7
+Wong Kwei Cheong,PAP,,8
+Wong Lin Ken,PAP,,2
+Wong Soon Fong,PAP,,0
 Xie Yao Quan,PAP,M,14
 Xie Yao Quan,PAP,M,15
+Yaacob,PAP,,1
+Yaacob Bin Ibrahim,PAP,,0
+Yaacob Bin Mohamed,PAP,,0
+Yaacob Bin Mohamed Al-Haj,PAP,,1
+Yaacob Bin Mohamed Yaacob,PAP,,0
+Yaacob Ibrahim,PAP,,12
 Yaacob Ibrahim,PAP,M,13
+Yaacob Ibrahim first. Encik Zainul Abidin Rasheed,PAP,,9
+Yaacob bin Mohamed,PAP,,0
+Yaacob bin Mohamed Al-Haj,PAP,,1
+Yatiman Yusof,PAP,,6
+Yatiman Yusof,PAP,,7
+Yatiman Yusof,PAP,,8
+Yatiman Yusof,PAP,,9
+Yatiman Yusof,PAP,,10
+Yatiman Yusof. Encik Yatiman Yusof,PAP,,10
+Yatiman. Encik Yatiman Yusof,PAP,,7
+Yatiman. Encik Yatiman Yusof,PAP,,10
+Yaw Shin Leong,WP,,12
 Yee Chia Hsing,PAP,M,13
 Yee Jenn Jong,WP,M,12
+Yee Jenn Jong,PAP,,12
+Yeo,PAP,,8
+Yeo Cheow Tong,PAP,,6
+Yeo Cheow Tong,PAP,,7
+Yeo Cheow Tong,PAP,,8
+Yeo Cheow Tong,PAP,,9
+Yeo Cheow Tong,PAP,,10
+Yeo Choo Kok,PAP,,2
+Yeo Choo Kok,PAP,,3
+Yeo Choo Kok,PAP,,4
+Yeo Choo Kok,PAP,,5
+Yeo Choo Kok,PAP,,6
 Yeo Guat Kwang,PAP,M,12
+Yeo Ning Hong,PAP,,5
+Yeo Ning Hong,PAP,,6
+Yeo Ning Hong,PAP,,7
+Yeo Ning Hong,PAP,,8
+Yeo Ning Yong,PAP,,6
+Yeo Toon Chia,PAP,,2
+Yeo Toon Chia,PAP,,3
+Yeo Toon Chia,PAP,,4
+Yeo Toon Chia,PAP,,5
+Yeo Toon Chia,PAP,,6
+Yeo Toon Chia,PAP,,7
+Yeo Toon Chia,PAP,,8
 Yeo Wan Ling,PAP,M,14
 Yeo Wan Ling,PAP,M,15
+Yeoh Ghim Seng,PAP,,1
+Yeoh Ghim Seng,PAP,,2
 Yip Hon Weng,PAP,M,14
 Yip Hon Weng,PAP,M,15
 Yip Pin Xiu,NMP,F,13
+Yong,PAP,,6
+Yong Nyuk Lin,PAP,,1
+Yong Nyuk Lin,PAP,,2
+Yong Nyuk Lin,PAP,,3
+Yu-Foo Yee Shoon,PAP,,6
+Yu-Foo Yee Shoon,PAP,,7
+Yu-Foo Yee Shoon,PAP,,8
+Yu-Foo Yee Shoon,PAP,,9
+Yu-Foo Yee Shoon,PAP,,10
+Yu-Foo Yee Shoon,PAP,,11
+Yu-Foo Yee Soon,PAP,,8
+Yu-Foo. Mrs Yu-Foo Yee Shoon,PAP,,6
+Yu-Foo. Mrs Yu-Foo Yee Shoon,PAP,,8
+Yu-Foo. Mrs Yu-Foo Yee Shoon,PAP,,9
+Yu-Foo. Mrs Yu-Foo Yee Shoon,PAP,,10
+Yu-Foo’s Mandarin speech,PAP,,11
+Yu-Fu Yee Shoon,PAP,,10
+Yusof Qaradhawi had stated,PAP,,11
+Yusof bin Ishak,PAP,,2
 Zainal Sapari,PAP,M,12
 Zainal Sapari,PAP,M,13
+Zainal bin Sapari,PAP,,12
 Zainudin Nordin,PAP,M,12
+Zainul Abidin Rasheed,PAP,,9
+Zainul Abidin Rasheed,PAP,,10
+Zainul Abidin Rasheed,PAP,,11
+Zainul may then ask,PAP,,10
 Zaqy Mohamad,PAP,M,12
 Zaqy Mohamad,PAP,M,13
 Zaqy Mohamad,PAP,M,14
 Zaqy Mohamad,PAP,M,15
+Zaqy  Mohamad,PAP,,11
 Zhulkarnain Abdul Rahim,PAP,M,14
 Zhulkarnain Abdul Rahim,PAP,M,15
+Zulkfili Bin Baharudin,PAP,,9
+Zulkifli Bin Baharudin,NMP,,9
+Zulkifli Bin Mohammed,PAP,,6
+Zulkifli bin Baharudin,PAP,,9
+Zulkifli bin Mohammed,PAP,,6
+Zulkifli bin Mohammed,PAP,,7
+Zulkifli bin Mohammed,PAP,,8
+Zulkifli. Encik Zulkifli bin Mohammed,PAP,,7
+Zulkifli. Encik Zulkifli bin Mohammed,PAP,,8
+[NS] Lui Tuck Yew,PAP,M,11
+[NS] Tan Chuan-Jin,PAP,M,12
+are meant for a wide range of students,PAP,,10
+de Souza asked,PAP,,11
+model actually comprises two parts,PAP,,10
+﻿[Mdm Speaker in the Chair],PAP,,12
+﻿[Mdm Speaker in the Chair],PAP,,13
+Chew Chin Harn,PAP,,1
+"Coomaraswamy, P.",PAP,,1
+Mrs Devan Nair,PAP,,1
+Koo Yong,BS,,1
+Lee Tee Tong,PAP,,1
+Loh Miaw Gong,BS,,1
+"Coomaraswamy, P.",PAP,,2
+Lai Tai Chai,PAP,,3
+Lai Tai Chai,PAP,,4
+Rohan Bin Kamis,PAP,,4
+Lai Tai Chai,PAP,,5
+Rohan Bin Kamis,PAP,,5
+Abdullah Bin Tarmugi,PAP,,6
+Lai Tai Chai,PAP,,6
+Zulkifli Bin Mohamed,PAP,,6
+Abdul Nasser Bin Kamarudin,PAP,,7
+Abdullah Bin Tarmugi,PAP,,7
+"Choo, Maurice, Assoc Prof",NMP,,7
+"Seet Ai Mei, Dr",PAP,,7
+Zulkifli Bin Mohamed,PAP,,7
+Abdullah Bin Tarmugi,PAP,,8
+Mohamed Maidin BPM,PAP,,8
+Zulkifli Bin Mohamed,PAP,,8
+Abdullah Bin Tarmugi,PAP,,9
+"Chiang See Ngoh, Claire, Mdm",NMP,,9
+"Lee Gek Choo, Jennifer, Dr",NMP,,9
+Mohamed Maidin BPM,PAP,,9
+"Tay S C, Simon, Assoc Prof",NMP,,9
+Abdullah Bin Tarmugi,PAP,,10
+Ahmad Khalis bin Abdul Gahni,PAP,,10
+"Lee Gek Choo, Jennifer, Dr",NMP,,10
+Mohamed Maidin BPM,PAP,,10
+"Ong Soh Khim, Assoc Prof",NMP,,10
+"Png Paak Liang, Ivan, Prof",NMP,,10
+Abdullah Bin Tarmugi,PAP,,11
+Masagos Zulkifli Bin Masagos Mohamad,PAP,,11
+Masagos Zulkifli Bin Masagos Mohamad,PAP,,12
+Masagos Zulkifli Bin Masagos Mohamad,PAP,,13
+Masagos Zulkifli Bin Masagos Mohamad,PAP,,14
+Lee Hong Chuang BBM,PAP,,15
+Masagos Zulkifli Bin Masagos Mohamad,PAP,,15
+Tan Eng Hang,NMP,M,12
