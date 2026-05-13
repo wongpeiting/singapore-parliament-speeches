@@ -187,7 +187,8 @@ cython_debug/
 CLAUDE.md
 .claude/
 
-# ParlDesk generated database (rebuild with: python -m pulse.ingest)
+# ParlDesk frontend
+parldesk/
 sgparl_pulse.db
 sgparl_pulse.db-shm
 sgparl_pulse.db-wal
